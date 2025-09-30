@@ -3,7 +3,8 @@ name: Deploy modpack to GitHub Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["main", "test"]
+    branches:
+      - main
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -54,7 +55,7 @@ jobs:
 
       # Build
       - name: Build pack
-        run: ${{ env.PACKWIZ }} refresh --build
+        run: cd pack && ${{ env.PACKWIZ }} refresh --build
 
       # Deploy
       - name: Configure pages
