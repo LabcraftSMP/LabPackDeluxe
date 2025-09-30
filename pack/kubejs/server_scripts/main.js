@@ -59,6 +59,7 @@ ServerEvents.tags('block', event => {
 
 ServerEvents.tags('item', event => {
     event.removeAllTagsFrom(global.blacklistedItems)
+    event.add('c:hidden_from_recipe_viewers', global.blacklistedItems)
 
     event.remove('c:hidden_from_recipe_viewer', 'supplementaries:jar_boat')
     event.remove('minecraft:foot_armor', [

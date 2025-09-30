@@ -36,7 +36,8 @@ StartupEvents.modifyCreativeTab('minecraft:tools_and_utilities', event => {
 		'create_enchantment_industry:experience_bucket',
 		'create_dragons_plus:black_dye_bucket',
 		'create:chocolate_bucket',
-		'create:honey_bucket'
+		'create:honey_bucket',
+		'mynethersdelight:hot_wings_bucket'
 	])
 
 	event.remove('minecraft:lead')
@@ -126,10 +127,35 @@ StartupEvents.modifyCreativeTab('minecraft:building_blocks', event => {
 
 	const createVariants = baseVariants.concat('create:XX')
 
-	function addStoneVariants(variants, stone, after) {
+	const modVariants = [
+		'stonezone:c/NN/cut_XX',
+		'stonezone:c/NN/cut_XX_stairs',
+		'stonezone:c/NN/cut_XX_slab',
+		'stonezone:c/NN/cut_XX_wall',
+		'stonezone:c/NN/cut_XX_bricks',
+		'stonezone:c/NN/cut_XX_brick_stairs',
+		'stonezone:c/NN/cut_XX_brick_slab',
+		'stonezone:c/NN/cut_XX_brick_wall',
+		'stonezone:c/NN/polished_cut_XX',
+		'stonezone:c/NN/polished_cut_XX_stairs',
+		'stonezone:c/NN/polished_cut_XX_slab',
+		'stonezone:c/NN/polished_cut_XX_wall',
+		'stonezone:c/NN/small_XX_bricks',
+		'stonezone:c/NN/small_XX_brick_stairs',
+		'stonezone:c/NN/small_XX_brick_slab',
+		'stonezone:c/NN/small_XX_brick_wall',
+		'stonezone:c/NN/XX_pillar',
+		'stonezone:c/NN/layered_XX'
+	].reverse()
+
+	function addStoneVariants(variants, stone, after, namespace) {
+		if (!namespace) namespace = ''
 		event.addAfter(
 			after,
-			variants.map(variant => variant.replace('XX', stone))
+			variants.map(variant => variant
+				.replace('XX', stone)
+				.replace('NN', namespace)
+			)
 		)
 	}
 
@@ -148,6 +174,13 @@ StartupEvents.modifyCreativeTab('minecraft:building_blocks', event => {
 	addStoneVariants(baseVariants, 'tuff', 'minecraft:chiseled_tuff_bricks')
 	addStoneVariants(baseVariants.concat('minecraft:dripstone_block'), 'dripstone', 'natures_spirit:chert_tile_wall')
 	addStoneVariants(baseVariants.concat('minecraft:calcite'), 'calcite', 'natures_spirit:chert_tile_wall')
+
+	addStoneVariants(modVariants, 'gypsum', 'arts_and_crafts:gypsum_brick_wall', 'arts_and_crafts')
+	addStoneVariants(modVariants, 'travertine', 'natures_spirit:travertine_tile_wall', 'natures_spirit')
+	addStoneVariants(modVariants, 'chert', 'natures_spirit:chert_tile_wall', 'natures_spirit')
+	addStoneVariants(modVariants, 'mirestone', 'enderscape:mirestone_brick_wall', 'enderscape')
+	addStoneVariants(modVariants, 'veradite', 'enderscape:veradite_brick_wall', 'enderscape')
+	addStoneVariants(modVariants, 'kurodite', 'enderscape:kurodite_brick_wall', 'enderscape')
 
 	event.addAfter('minecraft:warped_button', [
 		'mynethersdelight:powdery_block',
@@ -352,6 +385,7 @@ StartupEvents.modifyCreativeTab('minecraft:spawn_eggs', event => {
 
 StartupEvents.modifyCreativeTab('minecraft:food_and_drinks', event => {
 	event.addAfter('minecraft:tropical_fish', 'crittersandcompanions:koi_fish')
+	event.addAfter('minecraft:milk_bucket', 'mynethersdelight:hot_wings_bucket')
 })
 
 StartupEvents.modifyCreativeTab('minecraft:ingredients', event => {
@@ -390,6 +424,8 @@ StartupEvents.modifyCreativeTab('minecraft:ingredients', event => {
 		'create:andesite_alloy'
 	])
 
+	event.addAfter('minecraft:netherite_upgrade_smithing_template', 'create_dragons_plus:blaze_upgrade_smithing_template')
+
 	function reorder(before, after) {
 		event.remove(after)
 		event.addAfter(before, after)
@@ -419,7 +455,10 @@ StartupEvents.modifyCreativeTab('mynethersdelight:main', event => {
 })
 
 StartupEvents.modifyCreativeTab('create:base', event => {
-	event.addAfter('create:spout', 'create_dragons_plus:fluid_hatch')
+	event.addAfter('create:spout', [
+		'create_dragons_plus:fluid_hatch',
+		'create_enchantment_industry:printer'
+	])
 	event.addAfter('create:chocolate_bucket', 'create_dragons_plus:black_dye_bucket')
 })
 
@@ -453,6 +492,10 @@ StartupEvents.modifyCreativeTab('lootr:lootr', event => {
 })
 
 StartupEvents.modifyCreativeTab('crittersandcompanions:main', event => {
+	event.remove(/./)
+})
+
+StartupEvents.modifyCreativeTab('arts_and_crafts:configurable_tab', event => {
 	event.remove(/./)
 })
 
