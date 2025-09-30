@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/vNNL5mc7/versions/KA38FGwj/bedspreads-neoforge-7.0.0%2B1.21.1.jar"
 hash-format = "sha512"
-hash = "8225a4e7873fe5cf336ca82aa9a2f01b18e169e59e160c033fdc0d80922e3abe270f50c9758adc6a70063b3d53e7e61da2eef029eb2320ee016d3ffeff15b917"
+hash = "0b1982ee387d537e1435706bd4a4c4eb1882f666e5d75af23f0e4092445c65e47ac0caa5c4de4bd3a7acbccafed209e1478a58f09905cd2df7bdc875178b0c7c"
 
 [update]
 [update.modrinth]

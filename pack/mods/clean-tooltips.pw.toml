@@ -5,7 +5,7 @@ side = "client"
 [download]
 url = "https://cdn.modrinth.com/data/vMoHe8uI/versions/F8TicG1p/clean_tooltips-1.1-neoforge-1.21.1.jar"
 hash-format = "sha512"
-hash = "0c9044977e3203fb8f7f49417ca268d35ed3f7a39fcfd940e95c7142926cca8fb1f70a390e82b352ea70a2854f21d49f399f8931c13422b50adb38f2fe91d5d2"
+hash = "935f2a18528ae722a628098a33a6d7512f3f029271637738810fc6ed8f5589cd715435a2e66dbd70911e4ddebfd7ea9df17a9766fe4d7ae876dff31b248649fc"
 
 [update]
 [update.modrinth]

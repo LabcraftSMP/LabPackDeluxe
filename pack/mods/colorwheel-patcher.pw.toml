@@ -5,7 +5,7 @@ side = "client"
 [download]
 url = "https://cdn.modrinth.com/data/KPsw5jDu/versions/V6JuoHch/colorwheel_patcher-neoforge-1.0.0%2Bmc1.21.1.jar"
 hash-format = "sha512"
-hash = "1f2559a1362978ec168c7e366f278f3ec6305800b264841f1d1a573a93b3951441f35e6dfcbc19e7edd9d52e28ac5a2fbf49dfe2d1997b48270cd577a92af82a"
+hash = "79c2f36fb3ddf6abbd804d5e42a9c8770f652cdb795aa7a667c2cb00cf83d070c0892237cd8c250335a4ddaa240012da95536d4d7cd93a220deba0cb363fecab"
 
 [update]
 [update.modrinth]

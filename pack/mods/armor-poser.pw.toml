@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/PFwYNrHb/versions/V170GebO/ArmorPoser-neoforge-1.21.1-6.2.2.jar"
 hash-format = "sha512"
-hash = "0b1982ee387d537e1435706bd4a4c4eb1882f666e5d75af23f0e4092445c65e47ac0caa5c4de4bd3a7acbccafed209e1478a58f09905cd2df7bdc875178b0c7c"
+hash = "4a1567f157ae311bab73e74c5d86f9b446bbf3b7bbb2bd5cd30481377861cb8932df3faa072d5af5dce2ae1c321064f5ea0694a2424692c18df24b28a516db4c"
 
 [update]
 [update.modrinth]

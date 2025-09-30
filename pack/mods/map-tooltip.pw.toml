@@ -5,7 +5,7 @@ side = "client"
 [download]
 url = "https://cdn.modrinth.com/data/GNtptqqU/versions/hfmr4gVc/maptooltip-neoforge-1.21-4.0.1.jar"
 hash-format = "sha512"
-hash = "1de6386f9486c806c0f18507a45f98a2d879b36db6b16f51dddd8a69614eccdb307835962fd7b4fd5b800639b93f475994ec36762d59db6000d2c9adc762276a"
+hash = "ce2d180f61dd000dea3debad6aa6247d717a163e4bee1699a5fb34e3b3b076ed73a5ff12ac544ccf1c906f5f0967d182c50d32c24491fc524c32e7aa8aa78ebe"
 
 [update]
 [update.modrinth]

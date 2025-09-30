@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/u58R1TMW/versions/a4IkLwwg/connector-2.0.0-beta.10%2B1.21.1-full.jar"
 hash-format = "sha512"
-hash = "ea6bd947ff1ede49e651bd8f43d3ac689ac8c0498869172607986d47431fcf5833642e7bddc5978c528981fe17811366994b612c3e3da188892bd849cdf0d4e0"
+hash = "51ed7bf5ed1385a1192b94fbc86105753cb5a8bedc63577f4e7a3353914d541431711d772c84e27dc7c500bac3efc706bfe083a4fdc5545f4248aaacfabe8aa0"
 
 [update]
 [update.modrinth]

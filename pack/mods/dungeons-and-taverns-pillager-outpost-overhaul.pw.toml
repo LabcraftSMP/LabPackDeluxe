@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/QIt10I7z/versions/4XIbhTdE/dungeons-and-taverns-pillager-outpost-overhaul-v2.2.jar"
 hash-format = "sha512"
-hash = "1fbeadb91721c55f1c86e2c4f9ac4bf30c3a7b2044e08e81ce4386a270dcb83d888db6a1b5c57728e979a90df507b8175f907056edf79f5c872b2693b23a8e01"
+hash = "9ea0eda10a3399f4f51f8cfae64b047abdd2b8ae8d516337c1d5b5ed1f3cba76883c71b710c2380ff1e6175d86d8ef50ea81e91a804cf414b0622d00118d7f64"
 
 [update]
 [update.modrinth]

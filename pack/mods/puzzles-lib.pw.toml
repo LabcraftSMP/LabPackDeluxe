@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/QAGBst4M/versions/wzY6RY3b/PuzzlesLib-v21.1.38-1.21.1-NeoForge.jar"
 hash-format = "sha512"
-hash = "4de5c5d52139244b8c5260d641087664d992624b822599a32e03c08eb133be854a2f413667dbca1e55772445b04a70210c17b3bc13e3c88e425e7d928104b9fa"
+hash = "37fef6e0895122df2b842a98c043415bbcd9c2f17f04e5d734f2c390ca0c10bf0b9460272fc7bafbd36de36d06887b632e09e12d6b54c37b77c0b1e6bfd8f8cc"
 
 [update]
 [update.modrinth]

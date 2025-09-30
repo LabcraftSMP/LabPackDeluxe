@@ -3,8 +3,8 @@ filename = "Chimes-v2.0.3-1.21.1-NeoForge.jar"
 side = "both"
 
 [download]
-hash-format = "sha512"
-hash = "94bfe8a3b6f763a4110b43d1f792b1da77b8fa995531a70f3132c8604c20f67621142c53ec63f54c5e09d9fd5c430643c4b67e3e4e3d564131dd7e2608dd243d"
+hash-format = "sha1"
+hash = "9d4bfc5de7f609cbd376df157d9cd7afc3d77591"
 mode = "metadata:curseforge"
 
 [update]

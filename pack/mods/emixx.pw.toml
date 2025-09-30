@@ -4,5 +4,5 @@ side = "both"
 
 [download]
 url = "https://github.com/chililisoup/emi-plus-plus/releases/download/1.2.4-snapshot/emixx-neoforge-1.2.4-SNAPSHOT.jar"
-hash-format = "sha512"
-hash = "24a42a8eb63d7c39feee2b1b2f7121ecd7f0e06c251fcb36a8ecfad0086c6c86314091e318f37e36ef6acbd8137bcff47fcc185bbe44795ac71a182ad1011679"
+hash-format = "sha256"
+hash = "40afa4fced2012d975581dc0e40544ac3b3a32f2ff7e16d0c605acf633c4408a"

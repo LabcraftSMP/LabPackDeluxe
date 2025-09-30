@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/2k6aLirX/versions/y3HMBu03/portfolio-1.21.1-1.5.0-neoforge.jar"
 hash-format = "sha512"
-hash = "f920b10ce4b0c06f4c0022138f78d4571b72f9d536bfc2bb6f2369c61e149b23bf6b832fdafeb4ee1d692bf0226834992b1891edc8417f14cb6fa2971515bebe"
+hash = "508a3074cd02581efcf2e3a75f3a234ef7e785ef17248719e0d45b05c42a462c099e74ed2fcf0804d817fde51c3da9d139b631ce7813513394f02c1868085a5a"
 
 [update]
 [update.modrinth]

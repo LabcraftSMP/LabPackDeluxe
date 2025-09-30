@@ -5,7 +5,7 @@ side = "client"
 [download]
 url = "https://cdn.modrinth.com/data/lMYIHZNH/versions/XJXyFOVv/createbetterfps-1.21.1-1.1.2.jar"
 hash-format = "sha512"
-hash = "9ea0eda10a3399f4f51f8cfae64b047abdd2b8ae8d516337c1d5b5ed1f3cba76883c71b710c2380ff1e6175d86d8ef50ea81e91a804cf414b0622d00118d7f64"
+hash = "2ee2193ca8c3639cb34c6c413fdd93ccf66f95f7b144ec77367462983b25df6e33a4606d3537d8cd7172ed7b6ecbc31b9244c9214716935d5f17aca75331cf62"
 
 [update]
 [update.modrinth]

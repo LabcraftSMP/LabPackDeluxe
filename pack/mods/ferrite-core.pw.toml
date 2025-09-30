@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/uXXizFIs/versions/CnpoQxCx/ferritecore-7.0.2-neoforge.jar"
 hash-format = "sha512"
-hash = "a3069c7ab02969bd250636dcb99a9b8b1201d8b236ce7c8f7c69cce3c60d09fcab7c075b86f059433c493af993ba9d70dee0fbe3cc3d8eda6d1b0d8809f60960"
+hash = "2a5a7b79473c42572bdbbd1f429a459630d793b35f3eb17051139a94bced2d13c39e9c6309c81368d5502bc46c509e9868a8b5fa3cf93c51375a694cd96c20ac"
 
 [update]
 [update.modrinth]

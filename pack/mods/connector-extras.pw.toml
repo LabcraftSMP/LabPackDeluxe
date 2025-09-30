@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/FYpiwiBR/versions/dgLCqZyo/ConnectorExtras-1.12.1%2B1.21.1.jar"
 hash-format = "sha512"
-hash = "6a38b61691f783c4c642955b7991b91971e463e2a449014dffebecb736fec9d84e9dbb0ef554a56298f82a325b071a2a83acae7038c8419eef1c8d9200d7c883"
+hash = "ff9fc5d48a81e820c8c26b8a045e0ab7a3b0e9b5eaee7369b2eadb3f93d7eb423255073dfc327d131cb667df93be066560f3704b4cc8a12b07486b98a12bad1d"
 
 [update]
 [update.modrinth]

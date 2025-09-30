@@ -5,7 +5,7 @@ side = "client"
 [download]
 url = "https://cdn.modrinth.com/data/yFypjcfd/versions/fXV6MZxz/toomanyrecipeviewers-0.6.3%2Bmc.21.1.jar"
 hash-format = "sha512"
-hash = "e0e7c271333d3fa3d0699099d4d0b2f09f2cee268b5a7d93fee4dda743c88ccc2bf3a179e9f0c6a1beee338ec7b250c248104f39b84f72f9e8358061e8a858bb"
+hash = "4fb15667939effbb77c9d0f19ba50f4ef6de90829bd4688494ff28da6cc9c9d53418107558c8433c6c527cca21ddec8e70b4c0292fcf09b831d45aedbca79ab5"
 
 [update]
 [update.modrinth]

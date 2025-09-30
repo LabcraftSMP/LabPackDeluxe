@@ -5,7 +5,7 @@ side = "client"
 [download]
 url = "https://cdn.modrinth.com/data/32IHc3EF/versions/DkoCrM6s/tipoftheloom-neoforge-1.21.1-21.1.3.jar"
 hash-format = "sha512"
-hash = "a3069c7ab02969bd250636dcb99a9b8b1201d8b236ce7c8f7c69cce3c60d09fcab7c075b86f059433c493af993ba9d70dee0fbe3cc3d8eda6d1b0d8809f60960"
+hash = "72a6a536ce11de99254e509f86cfa19080695f2388ac8243fea834d226a2fdf11a6a93502ff915c0d70e120dd58b7c01747e345344dbf18fc0f197d39a376ac8"
 
 [update]
 [update.modrinth]

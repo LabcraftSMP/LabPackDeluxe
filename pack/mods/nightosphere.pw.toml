@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/tdv7lfX5/versions/fvFskL3J/nightosphere-2.1.jar"
 hash-format = "sha512"
-hash = "329292855e3aa454b23612d16f3920b54d1ce9d8a922a0a97186ba5a0df7d8a834e2c84d90022b0e05b7ccd7ab6627eb158457abad71f4b95648b20a4d60e7bb"
+hash = "c8057c18708055ce7be8d52bd5c598f339837a3e2ccc58680dcb0ac77c0ad9b17d1ac42d120aca083b7467fc9fe9b3fd6d62d8c176a06f18d0fa1fcb3326b0e1"
 
 [update]
 [update.modrinth]

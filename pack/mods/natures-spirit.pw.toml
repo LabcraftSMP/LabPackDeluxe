@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/WBvnqHfV/versions/MGjl80vc/natures_spirit-2.2.5-1.21.1.jar"
 hash-format = "sha512"
-hash = "c847363977f7d49156c56649bb7cb3fa5bb02c73733b15956531b5ed94cebfc59a400d6aa02538cc238c5f3fb41a81d23cf1f62b73ceb45da0953787c6c387b4"
+hash = "c99aa5b451c2a8cc3cdb7c36fb9bdf81a8b69bf54956c2897bd7af7478bb1b870cbffc7f3d9e78679e3ed457f2a543daef8e232bef7f130cf7facd2931810a1b"
 
 [update]
 [update.modrinth]

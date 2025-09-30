@@ -5,7 +5,7 @@ side = "client"
 [download]
 url = "https://cdn.modrinth.com/data/Bh37bMuy/versions/xAiCe6w8/reeses-sodium-options-neoforge-1.8.3%2Bmc1.21.4.jar"
 hash-format = "sha512"
-hash = "d6efb0c378b94d539cdd99ce7ce11862518e971973210ff383506996af69b40a1fb54aecd71ebf73bd0f1e453ce80227b810781d1ad7f9a2dd076b7bb6d00811"
+hash = "d66b5d30e1bb8316cb75d52ba8485c6c1cfb0d03624288f39c1826b92de9da9c3d79351be9d7303ca3226176255921f35063139da118c755cf9a709186129744"
 
 [update]
 [update.modrinth]

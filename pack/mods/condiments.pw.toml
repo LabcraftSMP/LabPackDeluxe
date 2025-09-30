@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/XAJ8n4Vd/versions/6RzK6hhm/condiments-neoforge-1.4.1%2B1.21.1.jar"
 hash-format = "sha512"
-hash = "8e4ccc37732b3f5190e7e98df34dbc1339fe614494fcabf1aeaeab9ad8e5993522964b51be31882000c08c48a6d0096b5458364415bb81f2b2b775a7daf2eb87"
+hash = "54eb77d481ad9502e35875e758dc965010f2042b56d017fe7432bfcc81b482e06a62517190f775a7eca0dfece6e7dee8a049f9bb6ba2a2b675cf2620689669dc"
 
 [update]
 [update.modrinth]
