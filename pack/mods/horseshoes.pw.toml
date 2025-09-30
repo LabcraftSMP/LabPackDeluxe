@@ -1,13 +1,13 @@
 name = "Horseshoes"
-filename = "horseshoes-1.2.5.jar"
+filename = "horseshoes-neoforge-1.21.1-1.3.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/tyg1IZwj/versions/O9AEysY0/horseshoes-1.2.5.jar"
+url = "https://cdn.modrinth.com/data/tyg1IZwj/versions/vkP62rMw/horseshoes-neoforge-1.21.1-1.3.2.jar"
 hash-format = "sha512"
-hash = "4a68f3f24300d06468d5f13852dcec7f27c80b058bdcf4bf5d7934396493a5a8d5f62eb9b91c770f33b235044385cb637781cd913777f076e526cfbc80373495"
+hash = "bdb281ba3a35374c624186b1d62efc371bd7c9b0228e8711f2ccaef77726c9b87de6bbea4733efbec66e1f94bdbcf9f98cd79f9e0cd98230668b3551336e65be"
 
 [update]
 [update.modrinth]
 mod-id = "tyg1IZwj"
-version = "O9AEysY0"
+version = "vkP62rMw"
