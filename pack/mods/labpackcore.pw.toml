@@ -4,5 +4,5 @@ side = "both"
 
 [download]
 url = "https://github.com/chililisoup/LabPackCore/releases/download/0.1.0/labpackcore-0.1.0.jar"
-hash-format = "sha256"
-hash = "8c42f16fa07ebb8170028d182b601e24177844d2cf304b75a1093219b6ea94e4"
+hash-format = "sha512"
+hash = "4a68f3f24300d06468d5f13852dcec7f27c80b058bdcf4bf5d7934396493a5a8d5f62eb9b91c770f33b235044385cb637781cd913777f076e526cfbc80373495"

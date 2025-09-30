@@ -5,7 +5,7 @@ side = "client"
 [download]
 url = "https://cdn.modrinth.com/data/RSeLon5O/versions/o1Zk6Pde/particle_core-0.2.6%2B1.21%2Bneoforge.jar"
 hash-format = "sha512"
-hash = "f3bc6618df0694fe45a3159ff7d9161a6d63b115739353572a5683807bf74c3d5d3251491893312d1ca44f663bdd91aa119ee434ab3d8361942d7895a231a8c8"
+hash = "6ef762778e0397e824e3df9c3586e705c180add77eb09f889cc55ff0d260926ec6bb6ff338dfe7f18a8714f36e1a74f501c93c4b8b5fe1cca5a76c3bd8d76cb9"
 
 [update]
 [update.modrinth]

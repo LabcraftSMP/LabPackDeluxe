@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/hIu9KJTT/versions/1OnUtwc4/BrewinAndChewin-neoforge-4.4.1%2B1.21.1.jar"
 hash-format = "sha512"
-hash = "c53ee19fc5859fee33e5b12b1ff52d9f60e9a6497f469c0a9e27816a1b9e6e899283d0e1732ee5f292c5a377215e929b56f4a9625e62e5e16beb232fd856ddd2"
+hash = "dcf1135718e74c55d4b01116c9955b88a8c8a5180e61dc51d292479aff3d2fff38c8ca0f1b4a6e42e54644f1c8907846a61799491df455b71541aa342d8b8896"
 
 [update]
 [update.modrinth]

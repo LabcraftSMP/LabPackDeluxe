@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/ccKDOlHs/versions/NMCHU6DZ/owo-lib-neoforge-0.12.15.5-beta.1%2B1.21.jar"
 hash-format = "sha512"
-hash = "4de5c5d52139244b8c5260d641087664d992624b822599a32e03c08eb133be854a2f413667dbca1e55772445b04a70210c17b3bc13e3c88e425e7d928104b9fa"
+hash = "2ee2193ca8c3639cb34c6c413fdd93ccf66f95f7b144ec77367462983b25df6e33a4606d3537d8cd7172ed7b6ecbc31b9244c9214716935d5f17aca75331cf62"
 
 [update]
 [update.modrinth]

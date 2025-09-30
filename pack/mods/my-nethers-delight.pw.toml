@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/O53VhQoZ/versions/n2vJCdff/MyNethersDelight-1.21.1-1.9.jar"
 hash-format = "sha512"
-hash = "0c32e35b573d9a15a1f1fdfdc3d0af8c59a38a41918ee6e6b00f6b9fd8f0997609aea8f372110caaa4d284e31583eeb9ccdbb8c29b6cd72b9fca81889ac8598f"
+hash = "ee07ae723e05dfa756ff375c88d8d71cd44f3fb854d37766507ab4b84d83a3fc5dd41929ce3c613a512a319be33bf28a256f8bd26dd021697f209e0c42c89f10"
 
 [update]
 [update.modrinth]

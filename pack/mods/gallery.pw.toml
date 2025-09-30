@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/EOA6vv83/versions/ro6SHsF9/gallery-1.21.1-2.0.0.jar"
 hash-format = "sha512"
-hash = "8225b190f77e07cdf57b55b87537334600e29f21a55f2fe5ff0cf8f2e4093b4c1a3f460e963f76f44ef20ce6c515d89116cca6502d6e759a0cb5ecb6ad30a57e"
+hash = "4fb15667939effbb77c9d0f19ba50f4ef6de90829bd4688494ff28da6cc9c9d53418107558c8433c6c527cca21ddec8e70b4c0292fcf09b831d45aedbca79ab5"
 
 [update]
 [update.modrinth]

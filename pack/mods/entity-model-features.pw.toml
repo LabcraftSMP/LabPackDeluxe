@@ -5,7 +5,7 @@ side = "client"
 [download]
 url = "https://cdn.modrinth.com/data/4I1XuqiY/versions/qexsPT1y/entity_model_features_1.21-neoforge-3.0.1.jar"
 hash-format = "sha512"
-hash = "78de8b97383ef2a656d32f5ee435aacdb7e1e8df97e9817468de0afbea21d3142545799e03370443af6db40e51fac97cd8feaaf0385046bb905cfa808752617a"
+hash = "508a3074cd02581efcf2e3a75f3a234ef7e785ef17248719e0d45b05c42a462c099e74ed2fcf0804d817fde51c3da9d139b631ce7813513394f02c1868085a5a"
 
 [update]
 [update.modrinth]

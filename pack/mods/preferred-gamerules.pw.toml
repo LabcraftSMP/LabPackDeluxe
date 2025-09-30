@@ -5,7 +5,7 @@ side = "server"
 [download]
 url = "https://cdn.modrinth.com/data/kKib77nY/versions/WEWDEB3T/preferred-gamerules-1.1.1%2B1.19.4.jar"
 hash-format = "sha512"
-hash = "e3fc77d9ca08a7f882ced44fbf54108fe01e5e7c5021a705f018ccee3263ab6e07ce7b17c7ee030f542212127fa08a1f1b888616c9a08f2a2c6894f036ee3411"
+hash = "ea6bd947ff1ede49e651bd8f43d3ac689ac8c0498869172607986d47431fcf5833642e7bddc5978c528981fe17811366994b612c3e3da188892bd849cdf0d4e0"
 
 [update]
 [update.modrinth]

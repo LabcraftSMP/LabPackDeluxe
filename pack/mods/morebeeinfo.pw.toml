@@ -5,7 +5,7 @@ side = "client"
 [download]
 url = "https://cdn.modrinth.com/data/N2XKPu4u/versions/ofaNR0RN/MoreBeeInfo-neoforge-1.21-1.4.jar"
 hash-format = "sha512"
-hash = "daeea933c94cc65601e78d27a22b17a6eed0af882a24f494a6ef4eb3d9e3d838d88838beb6681143bff0817f8a24dde01403d2f3301555ce02a9513c4c86d7ff"
+hash = "ce58f34d05d96c0a109a5cea23c741f6bdb2e6be31fc087c5989274cefca5f10ba0c08c62083cf554a51f2c7667bf46e4164383f675c844e77633aef2659996b"
 
 [update]
 [update.modrinth]

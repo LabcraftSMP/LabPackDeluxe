@@ -5,7 +5,7 @@ side = "client"
 [download]
 url = "https://cdn.modrinth.com/data/5ZwdcRci/versions/VerzLexd/ImmediatelyFast-NeoForge-1.6.7%2B1.21.1.jar"
 hash-format = "sha512"
-hash = "b02523cbdd7834177bbb6c19359fb6ee5b7de6d42e18010a913612acf405db27e4382f1ea26048a5a3f46f40534d88771c5cdb630267034bec6f75a8334bc16b"
+hash = "d1aa07b1feec4788d26a6d02efde58cae888a7f3353df4f54f1ec4153ca3e272a496d594583d1209bcdf7657b42efd068d7fb9797bb0aac375b87f7cbcc0a2ce"
 
 [update]
 [update.modrinth]

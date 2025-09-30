@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/fFEIiSDQ/versions/HuLq3LuW/supplementaries-1.21-3.4.16-neoforge.jar"
 hash-format = "sha512"
-hash = "b7622af8a327d2deb29ac47e9df7a2d8f7ee2a675ef4faf640ceeffe383e3a4a81e15586f9cf4d5f4626d2dfb5c7f366bbc8104017c36cbfce591344f4a16bc1"
+hash = "b843f6a3aed3bc582790cad7927fc46835835bbacfca748d2830dab12cfff6b12b451f5bdbccd6ed86b0a70102f263df18e330d94c8af99392f52619200d0d90"
 
 [update]
 [update.modrinth]

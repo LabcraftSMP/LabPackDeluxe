@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/CVRzrXGP/versions/GL10XO65/accessorify-2.2.1%2B1.21.1.jar"
 hash-format = "sha512"
-hash = "32494131f1ff8bea3ebba86b4d6e89ef5b47a9694b53069aedfbf56cb7b8cfa7b19949729150449dd6eb8333cf869a077cd13e9582d24195cd30597f24cd1940"
+hash = "5f36d5166a67a156df52699071f20219bc2320b3c4fbcd9dac38631f66136f034e3219ac89ff4bfb6e26e4c68513a94c833797f2e5ed5bf58cfa1531eeed162d"
 
 [update]
 [update.modrinth]

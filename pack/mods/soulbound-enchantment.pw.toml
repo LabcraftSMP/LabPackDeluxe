@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/MmUmcwom/versions/RkfLMEih/soulbound-neoforge-1.0.1%2B1.21.1.jar"
 hash-format = "sha512"
-hash = "329292855e3aa454b23612d16f3920b54d1ce9d8a922a0a97186ba5a0df7d8a834e2c84d90022b0e05b7ccd7ab6627eb158457abad71f4b95648b20a4d60e7bb"
+hash = "508a3074cd02581efcf2e3a75f3a234ef7e785ef17248719e0d45b05c42a462c099e74ed2fcf0804d817fde51c3da9d139b631ce7813513394f02c1868085a5a"
 
 [update]
 [update.modrinth]

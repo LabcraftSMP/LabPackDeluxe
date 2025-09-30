@@ -3,8 +3,8 @@ filename = "catalogue-neoforge-1.21.1-1.11.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "6d67f855c20bc6392763cfb22e1152da4e8015b4"
+hash-format = "sha512"
+hash = "b7622af8a327d2deb29ac47e9df7a2d8f7ee2a675ef4faf640ceeffe383e3a4a81e15586f9cf4d5f4626d2dfb5c7f366bbc8104017c36cbfce591344f4a16bc1"
 mode = "metadata:curseforge"
 
 [update]

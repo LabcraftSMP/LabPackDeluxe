@@ -5,7 +5,7 @@ side = "client"
 [download]
 url = "https://cdn.modrinth.com/data/UVtY3ZAC/versions/zfAkJn0r/enchdesc-neoforge-1.21.1-21.1.9.jar"
 hash-format = "sha512"
-hash = "22258e118552e690ae77ad1a13e5dfe69bf94bdd765d2e614e2e4cc7410c406866b7937b54e8475660bba858b0eadb7efd430146563301143643622622d2c928"
+hash = "94ad7800ec0435932d7f6910e8cc534788c0836b56bf460c4a7ec80314ef7ec23d4f7209578459773872a5be5ade5511769039f41e788d5dc40c473fb50f0691"
 
 [update]
 [update.modrinth]

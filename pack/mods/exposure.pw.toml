@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/hB899VmG/versions/gvfTQQgQ/exposure-neoforge-1.21.1-1.9.11.jar"
 hash-format = "sha512"
-hash = "ee07ae723e05dfa756ff375c88d8d71cd44f3fb854d37766507ab4b84d83a3fc5dd41929ce3c613a512a319be33bf28a256f8bd26dd021697f209e0c42c89f10"
+hash = "1d1a934e0673644c57a75df099dec32f599d3041278886e19265462347581548b837dbff0b853e167feb01673286999586dcbf5bca99bf86da6c2deac8c8c6c8"
 
 [update]
 [update.modrinth]

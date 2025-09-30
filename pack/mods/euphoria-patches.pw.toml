@@ -5,7 +5,7 @@ side = "client"
 [download]
 url = "https://cdn.modrinth.com/data/4H6sumDB/versions/EAY2vGXU/EuphoriaPatcher-1.6.8-r5.5.1-neoforge.jar"
 hash-format = "sha512"
-hash = "254305ec1365778cd469f3678b87dda5d175a22f10e830b62a21cb89a9012d56cfb182be1aedddc7130efef58fa99556740810316465b0c43e8b045ff1a276fe"
+hash = "9ea0eda10a3399f4f51f8cfae64b047abdd2b8ae8d516337c1d5b5ed1f3cba76883c71b710c2380ff1e6175d86d8ef50ea81e91a804cf414b0622d00118d7f64"
 
 [update]
 [update.modrinth]

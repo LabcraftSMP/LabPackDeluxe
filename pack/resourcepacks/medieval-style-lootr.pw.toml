@@ -3,8 +3,8 @@ filename = "Medieval_Style_Lootr.zip"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "b42514bae17dafa68c8903c70aad5545602d856f"
+hash-format = "sha512"
+hash = ""
 mode = "metadata:curseforge"
 
 [update]

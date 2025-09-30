@@ -4,5 +4,5 @@ side = "both"
 
 [download]
 url = "https://github.com/chililisoup/SillyLittleGuys/releases/download/0.1.0/SillyLittleGuys-neoforge-0.1.0.jar"
-hash-format = "sha256"
-hash = "de638c19ce02f2c68a2617682d5a0c22056fa8cd9e1dd46c83a9a5642d83b3f4"
+hash-format = "sha512"
+hash = "80b5225ca2780a10eb40b7692d34b170ab67c7826007eb25aea3d0d205badbb828fcc4ad063b2ecd8a6e8c8d90d500816a3f41242ad284ba199883dc1e3ffb93"

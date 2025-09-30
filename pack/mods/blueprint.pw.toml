@@ -5,7 +5,7 @@ side = "both"
 [download]
 url = "https://cdn.modrinth.com/data/VsM5EDoI/versions/MQD1gpYp/blueprint-1.21.1-8.0.6.jar"
 hash-format = "sha512"
-hash = "f920b10ce4b0c06f4c0022138f78d4571b72f9d536bfc2bb6f2369c61e149b23bf6b832fdafeb4ee1d692bf0226834992b1891edc8417f14cb6fa2971515bebe"
+hash = "2a5a7b79473c42572bdbbd1f429a459630d793b35f3eb17051139a94bced2d13c39e9c6309c81368d5502bc46c509e9868a8b5fa3cf93c51375a694cd96c20ac"
 
 [update]
 [update.modrinth]
