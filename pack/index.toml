@@ -2049,6 +2049,10 @@ file = "mods/resourceful-lib.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/rhino.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/scribble.pw.toml"
 metafile = true
 
