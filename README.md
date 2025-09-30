@@ -1,7 +1,7 @@
-<center>
+<div align="center">
     <img width="128px" alt="Lab Pack Deluxe Logo" src="mmc-pack/LabPackDeluxe.png" />
     <h1> Lab Pack Deluxe</h1>
-</center>
+</div>
 
 <br />
 
