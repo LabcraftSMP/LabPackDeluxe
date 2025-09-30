@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "mynethersdelight:powdery_block",
+    "mynethersdelight:stripped_powdery_block",
+    "mynethersdelight:powdery_mosaic",
+    "mynethersdelight:powdery_mosaic_stairs",
+    "mynethersdelight:powdery_mosaic_slab",
+    "mynethersdelight:powdery_cabinet"
+  ]
+}

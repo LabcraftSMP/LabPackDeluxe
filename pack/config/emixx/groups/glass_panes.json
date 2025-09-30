@@ -1,0 +1,16 @@
+{
+  "id": "lab_tweaks:glass_panes",
+  "contents": [
+    "#item:c:glass_panes"
+  ],
+  "exclusions": [
+    "#item:lab_tweaks:wooden_window_panes",
+    "item:create:ornate_iron_window_pane",
+    "item:create:industrial_iron_window_pane",
+    "item:create:weathered_iron_window_pane",
+    "item:create:tiled_glass_pane",
+    "item:create:framed_glass_pane",
+    "item:create:horizontal_framed_glass_pane",
+    "item:create:vertical_framed_glass_pane"
+  ]
+}

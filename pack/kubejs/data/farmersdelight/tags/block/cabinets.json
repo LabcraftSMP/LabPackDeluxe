@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mynethersdelight:red_nether_bricks_cabinet",
+    "mynethersdelight:nether_bricks_cabinet",
+    "mynethersdelight:blackstone_bricks_cabinet",
+    "mynethersdelight:powdery_cabinet"
+  ]
+}

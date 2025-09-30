@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "natures_spirit:light_gray_kaolin"
+  },
+  "result": {
+    "id": "arts_and_crafts:light_gray_chalk"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": "lab_tweaks:fine_wood",
+  "contents": [
+    "item:supplementaries:fine_wood",
+    "item:supplementaries:fine_wood_stairs",
+    "item:supplementaries:fine_wood_slab"
+  ]
+}

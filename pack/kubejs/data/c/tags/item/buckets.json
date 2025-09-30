@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#c:buckets/honey",
+    "create:chocolate_bucket",
+    "supplementaries:lumisene_bucket"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "id": "lab_tweaks:potion_liquids",
+  "contents": [
+    "fluid:create:potion"
+  ]
+}

@@ -1,0 +1,8 @@
+[creativeModeTabs]
+	enableCreativeModeTabs = true
+	syncSelectedCreativeModeTab = false
+	disabledCreativeModeTabs = ["minecraft:op_blocks", "everycomp:everycomp"]
+
+[stackGroups]
+	enableStackGroups = true
+	disabledStackGroups = ["minecraft:axes", "minecraft:pickaxes", "minecraft:shovels", "minecraft:swords", "minecraft:hoes", "minecraft:head_armor", "minecraft:chest_armor", "minecraft:leg_armor", "minecraft:foot_armor", "minecraft:animal_armors", "c:raw_materials", "c:foods", "minecraft:planks", "minecraft:stairs", "minecraft:slabs", "minecraft:fences", "minecraft:fence_gates", "minecraft:doors", "minecraft:trapdoors", "minecraft:pressure_plates", "minecraft:minecarts", "minecraft:skulls", "minecraft:rails", "minecraft:buttons", "minecraft:logs", "minecraft:signs", "minecraft:hanging_signs", "minecraft:walls", "c:buckets", "c:dusts", "c:nuggets", "c:ingots", "minecraft:copper_blocks", "mekanism:crystals", "mekanism:unit", "mekanism:dirty_dusts", "mekanism:enriched", "mekanism:shards", "mekanism:clumps", "minecraft:boats", "minecraft:beds", "c:glass_panes", "c:glass_blocks", "minecraft:flowers"]

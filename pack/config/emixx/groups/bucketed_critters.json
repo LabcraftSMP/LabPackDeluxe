@@ -1,0 +1,7 @@
+{
+  "id": "lab_tweaks:bucketed_critters",
+  "contents": [
+    "#item:c:buckets\/entity_water",
+    "#item:c:buckets\/entity"
+  ]
+}

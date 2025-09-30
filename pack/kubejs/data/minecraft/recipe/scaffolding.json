@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": [
+      {
+        "item": "farmersdelight:canvas"
+      },
+      {
+        "item": "minecraft:string"
+      }
+    ],
+    "B": {
+      "tag": "lab_tweaks:stalks"
+    }
+  },
+  "pattern": [
+    "B#B",
+    "B B",
+    "B B"
+  ],
+  "result": {
+    "count": 6,
+    "id": "minecraft:scaffolding"
+  }
+}

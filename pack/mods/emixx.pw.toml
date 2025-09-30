@@ -1,0 +1,8 @@
+name = "emixx"
+filename = "emixx-neoforge-1.2.4-SNAPSHOT.jar"
+side = "both"
+
+[download]
+url = "https://github.com/chililisoup/emi-plus-plus/releases/download/1.2.4-snapshot/emixx-neoforge-1.2.4-SNAPSHOT.jar"
+hash-format = "sha256"
+hash = "40afa4fced2012d975581dc0e40544ac3b3a32f2ff7e16d0c605acf633c4408a"

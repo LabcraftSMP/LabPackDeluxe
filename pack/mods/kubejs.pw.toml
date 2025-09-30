@@ -1,0 +1,8 @@
+name = "kubejs"
+filename = "kubejs-neoforge-2101.7.2-build.262.jar"
+side = "both"
+
+[download]
+url = "https://maven.latvian.dev/releases/dev/latvian/mods/kubejs-neoforge/2101.7.2-build.262/kubejs-neoforge-2101.7.2-build.262.jar"
+hash-format = "sha256"
+hash = "4466c7259397ec68f7deb9c18014d25e64966a3560df9f471c3e6a22988b81d6"

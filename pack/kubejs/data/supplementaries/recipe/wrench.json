@@ -1,0 +1,32 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "supplementaries:flag",
+      "flag": "wrench"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "wrench"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "121",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "1": {
+      "tag": "c:ingots/copper"
+    },
+    "2": {
+      "tag": "c:crops/cactus"
+    }
+  },
+  "result": {
+    "id": "supplementaries:wrench",
+    "count": 1
+  }
+}

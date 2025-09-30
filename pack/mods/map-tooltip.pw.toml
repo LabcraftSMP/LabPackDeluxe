@@ -1,0 +1,13 @@
+name = "Map Tooltip"
+filename = "maptooltip-neoforge-1.21-4.0.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/GNtptqqU/versions/hfmr4gVc/maptooltip-neoforge-1.21-4.0.1.jar"
+hash-format = "sha512"
+hash = "ce2d180f61dd000dea3debad6aa6247d717a163e4bee1699a5fb34e3b3b076ed73a5ff12ac544ccf1c906f5f0967d182c50d32c24491fc524c32e7aa8aa78ebe"
+
+[update]
+[update.modrinth]
+mod-id = "GNtptqqU"
+version = "hfmr4gVc"

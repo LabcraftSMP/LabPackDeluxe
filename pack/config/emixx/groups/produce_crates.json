@@ -1,0 +1,12 @@
+{
+  "id": "lab_tweaks:produce_crates",
+  "contents": [
+    "item:farmersdelight:carrot_crate",
+    "item:farmersdelight:potato_crate",
+    "item:farmersdelight:beetroot_crate",
+    "item:farmersdelight:cabbage_crate",
+    "item:farmersdelight:tomato_crate",
+    "item:farmersdelight:onion_crate",
+    "item:mynethersdelight:bullet_pepper_crate"
+  ]
+}

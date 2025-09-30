@@ -1,0 +1,13 @@
+name = "LabPackDeluxe"
+author = "chililisoup"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "5c814a598f17d89cf8401b8cacc3f08dadf6c39a8f1c424bdf2272cf4eb54e76"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.209"

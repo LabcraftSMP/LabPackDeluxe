@@ -1,0 +1,11 @@
+{
+  "id": "lab_tweaks:flowers",
+  "contents": [
+    "#item:minecraft:flowers"
+  ],
+  "exclusions": [
+    "#item:minecraft:leaves",
+    "#item:minecraft:saplings",
+    "item:minecraft:chorus_flower"
+  ]
+}

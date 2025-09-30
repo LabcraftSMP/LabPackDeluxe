@@ -1,0 +1,6 @@
+{
+	"type": "trimmed:trims",
+	"template": "trimmed:item/two_layer_trim",
+	"textures": "create:trim_overlays/cardboard_armor",
+	"override_textures": "create:trim_material_overrides/cardboard"
+}

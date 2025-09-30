@@ -1,0 +1,22 @@
+{
+  "type": "emi:world_interaction",
+  "left": {
+    "type": "item",
+    "id": "natures_spirit:large_calcite_bud",
+    "chance": 0.3
+  },
+  "right": {
+    "type": "item",
+    "id": "minecraft:brush",
+    "remainder": {
+      "type": "item",
+      "id": "minecraft:brush",
+      "nbt": "{\"minecraft:damage\":1}"
+    }
+  },
+  "output": {
+    "type": "item",
+    "id": "natures_spirit:chalk_powder",
+    "nbt": "{\"minecraft:lore\":['{\"italic\":false,\"color\":\"gray\",\"text\":\"1-3\"}']}"
+  }
+}

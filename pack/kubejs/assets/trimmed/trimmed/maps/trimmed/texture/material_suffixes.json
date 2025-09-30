@@ -1,0 +1,8 @@
+{
+  "values": {
+    "vanillabackport:trims/color_palettes/resin": "resin",
+    "lab_tweaks:trims/color_palettes/brass": "brass",
+    "lab_tweaks:trims/color_palettes/rose_quartz": "rose_quartz",
+    "lab_tweaks:trims/color_palettes/zinc": "zinc"
+  }
+}

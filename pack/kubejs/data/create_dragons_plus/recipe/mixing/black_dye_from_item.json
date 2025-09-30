@@ -1,0 +1,20 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "create_dragons_plus:config_feature",
+      "feature": "create_dragons_plus:fluid/dye"
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:ink_sac"
+    }
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "id": "create_dragons_plus:black_dye"
+    }
+  ]
+}

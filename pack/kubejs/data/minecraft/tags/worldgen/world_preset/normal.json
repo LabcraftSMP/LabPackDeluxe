@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:normal",
+    "minecraft:flat",
+    "minecraft:single_biome_surface"
+  ]
+}

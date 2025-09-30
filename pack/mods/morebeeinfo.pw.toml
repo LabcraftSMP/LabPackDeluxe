@@ -1,0 +1,13 @@
+name = "MoreBeeInfo"
+filename = "MoreBeeInfo-neoforge-1.21-1.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/N2XKPu4u/versions/ofaNR0RN/MoreBeeInfo-neoforge-1.21-1.4.jar"
+hash-format = "sha512"
+hash = "daeea933c94cc65601e78d27a22b17a6eed0af882a24f494a6ef4eb3d9e3d838d88838beb6681143bff0817f8a24dde01403d2f3301555ce02a9513c4c86d7ff"
+
+[update]
+[update.modrinth]
+mod-id = "N2XKPu4u"
+version = "ofaNR0RN"

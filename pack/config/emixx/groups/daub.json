@@ -1,0 +1,13 @@
+{
+  "id": "lab_tweaks:daub",
+  "contents": [
+    "item:supplementaries:daub",
+    "item:supplementaries:daub_frame",
+    "item:supplementaries:daub_brace",
+    "item:supplementaries:daub_cross_brace",
+    "item:suppsquared:daub_stairs",
+    "item:suppsquared:daub_slab",
+    "item:suppsquared:daub_frame_stairs",
+    "item:suppsquared:daub_frame_slab"
+  ]
+}

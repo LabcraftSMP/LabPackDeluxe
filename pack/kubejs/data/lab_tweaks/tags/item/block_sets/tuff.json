@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:tuff_stairs",
+    "minecraft:tuff_slab",
+    "minecraft:tuff_wall",
+    "minecraft:chiseled_tuff_bricks"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": "2",
+  "failed_reloads_per_session": 5,
+  "default_overrides": {
+    "force_compatible": true
+  },
+  "default_packs": [
+    "fabric",
+    "mod_resources",
+    "supplementaries:generated_pack",
+    "suppsquared:generated_pack",
+    "amendments:generated_pack",
+    "everycomp:dynamic_resources",
+    "condiments:dynamic_resources",
+    "moonlight:dynamic_resources",
+    "mod/natures_spirit:resourcepacks/arts_and_crafts_res",
+    "file/VanillaTweaks_r704036_MC1.21.x.zip",
+    "file/CreateWaxedOutlines-1.0.zip",
+    "file/RST Backport Supporter \u00A7cv1.3\u00A7r.zip",
+    "file/Fancy Crops v1.2.zip",
+    "file/Medieval_Style_Lootr.zip"
+  ],
+  "pack_overrides": {
+    "hidden": [
+      "programmer_art",
+      "supplementaries:darker_ropes",
+      "mod/natures_spirit:resourcepacks/plank_consistency",
+      "mod/natures_spirit:resourcepacks/emissive_ores_compatibility",
+      "mod/lootr:resourcepacks/old_textures"
+    ],
+    "vanilla": [
+      "vanilla"
+    ],
+    "packs": [
+      "fabric",
+      "mod_resources",
+      "supplementaries:generated_pack",
+      "suppsquared:generated_pack",
+      "amendments:generated_pack",
+      "everycomp:dynamic_resources",
+      "condiments:dynamic_resources",
+      "moonlight:dynamic_resources",
+      "mod/natures_spirit:resourcepacks/arts_and_crafts_res",
+      "file/VanillaTweaks_r704036_MC1.21.x.zip",
+      "file/CreateWaxedOutlines-1.0.zip",
+      "file/RST Backport Supporter \u00A7cv1.3\u00A7r.zip",
+      "file/Fancy Crops v1.2.zip"
+    ],
+    "pinned": [
+      "file/Medieval_Style_Lootr.zip"
+    ],
+    "$$hidden": {
+      "hidden": true,
+      "required": false
+    },
+    "$$vanilla": {
+      "hidden": false,
+      "required": true,
+      "fixed_position": true,
+      "default_position": "BOTTOM"
+    },
+    "$$packs": {
+      "hidden": true,
+      "required": true,
+      "fixed_position": true,
+      "default_position": "BOTTOM"
+    },
+    "$$pinned": {
+      "hidden": true,
+      "required": true,
+      "fixed_position": true,
+      "default_position": "TOP"
+    }
+  }
+}

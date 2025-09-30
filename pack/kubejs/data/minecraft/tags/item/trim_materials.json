@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "create:brass_ingot",
+    "create:polished_rose_quartz",
+    "create:zinc_ingot"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "replace": true,
+  "values": [
+    "#minecraft:enchantable/durability",
+    "#accessories:hat",
+    "#accessories:belt",
+    "#accessories:altimeter",
+    "#accessories:clock",
+    "#accessories:compass",
+    "#accessories:recovery_compass",
+    "#accessories:spyglass",
+    "#accessories:shulker"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "horseshoes:iron_horseshoes",
+    "horseshoes:gold_horseshoes",
+    "horseshoes:diamond_horseshoes"
+  ]
+}

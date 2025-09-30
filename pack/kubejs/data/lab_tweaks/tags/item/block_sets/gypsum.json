@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "arts_and_crafts:gypsum",
+    "arts_and_crafts:gypsum_stairs",
+    "arts_and_crafts:gypsum_slab",
+    "arts_and_crafts:gypsum_wall",
+    "arts_and_crafts:polished_gypsum",
+    "arts_and_crafts:polished_gypsum_stairs",
+    "arts_and_crafts:polished_gypsum_slab",
+    "arts_and_crafts:polished_gypsum_wall",
+    "arts_and_crafts:gypsum_bricks",
+    "arts_and_crafts:gypsum_brick_stairs",
+    "arts_and_crafts:gypsum_brick_slab",
+    "arts_and_crafts:gypsum_brick_wall"
+  ]
+}

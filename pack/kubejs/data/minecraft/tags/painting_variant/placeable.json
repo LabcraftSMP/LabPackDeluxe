@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:earth",
+    "minecraft:fire",
+    "minecraft:water",
+    "minecraft:wind",
+    "portfolio:chaos",
+    "portfolio:decay",
+    "portfolio:ether",
+    "portfolio:fauna",
+    "portfolio:flora",
+    "portfolio:frost",
+    "portfolio:ichor",
+    "portfolio:life",
+    "portfolio:light",
+    "portfolio:night",
+    "portfolio:nullity",
+    "portfolio:order",
+    "supplementaries:jar"
+  ]
+}

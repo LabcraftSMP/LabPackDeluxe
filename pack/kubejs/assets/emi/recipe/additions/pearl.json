@@ -1,0 +1,10 @@
+{
+  "type": "emi:world_interaction",
+  "left": "item:crittersandcompanions:otter_spawn_egg",
+  "right": "item:crittersandcompanions:clam",
+  "output": {
+    "type": "item",
+    "id": "crittersandcompanions:pearl",
+    "chance": 0.07
+  }
+}

@@ -1,0 +1,594 @@
+// Takes in a string and returns a string of Bukkit/Markdown formatted JSON text
+
+// Usage:
+// import('format_text', 'format_text'); (Bukkit+Markdown)
+// import('format_text', 'format_bukkit'); (Bukkit only)
+// import('format_text', 'format_markdown'); (Markdown only)
+// format_<text|bukkit|markdown>(string);
+
+global_bukkit_color_codes = {
+    '0' -> 'black',
+    '1' -> 'dark_blue',
+    '2' -> 'dark_green',
+    '3' -> 'dark_aqua',
+    '4' -> 'dark_red',
+    '5' -> 'dark_purple',
+    '6' -> 'gold',
+    '7' -> 'gray',
+    '8' -> 'dark_gray',
+    '9' -> 'blue',
+    'a' -> 'green',
+    'b' -> 'aqua',
+    'c' -> 'red',
+    'd' -> 'light_purple',
+    'e' -> 'yellow',
+    'f' -> 'white',
+    'r' -> 'reset'
+};
+
+global_bukkit_format_codes = {
+    'k' -> 'obfuscated',
+    'l' -> 'bold',
+    'm' -> 'strikethrough',
+    'n' -> 'underlined',
+    'o' -> 'italic'
+};
+
+global_markdown_codes = [
+    //[Hh][Tt]{2}[Pp][Ss]?:[-a-zA-Z0-9@:%_\+.~#?&//=]{2,256}\.[a-z]{2,4}\b(\/[-a-zA-Z0-9@:%_\+.~#?&//=]*)?
+    //website validator, would want extra options to enable it specifically tho
+    {
+        'regex' -> '(?<!\\\\)\\*\\*\\*(?:\\\\\\*|[^*])*(?:\\\\\\*|\\\\ |[^\\\\ *])+ *\\*\\*\\*',
+        'length' -> 3,
+        'tags' -> ['<b><i>', '</i></b>']
+    },
+    {
+        'regex' -> '(?<!\\\\)\\*\\*(?:\\\\\\*|[^*])*(?:\\\\\\*|\\\\ |[^\\\\ *])+ *\\*\\*',
+        'length' -> 2,
+        'tags' -> ['<b>', '</b>']
+    },
+    {
+        'regex' -> '(?<!\\\\)\\*(?:\\\\\\*|[^*])*(?:\\\\\\*|\\\\ |[^\\\\ *])+ *\\*',
+        'length' -> 1,
+        'tags' -> ['<i>', '</i>']
+    },
+    {
+        'regex' -> '(?<!\\\\)(?<![^\\\\]<[^>]+)(?<!^<[^>]+)__(?:\\\\_|[^<_]|<[^<>]+>)*(?:\\\\_|\\\\ |[^\\\\ <_]|<[^<>]+>)+ *__',
+        'length' -> 2,
+        'tags' -> ['<underline>', '</underline>']
+    },
+    {
+        'regex' -> '(?<!\\\\)(?<![^\\\\]<[^>]+)(?<!^<[^>]+)_(?:\\\\_|[^<_]|<[^<>]+>)*(?:\\\\_|\\\\ |[^\\\\ <_]|<[^<>]+>)+ *_',
+        'length' -> 1,
+        'tags' -> ['<i>', '</i>']
+    },
+    {
+        'regex' -> '(?<!\\\\)(?<![^\\\\]<[^>]+)(?<!^<[^>]+)~~(?:\\\\~|[^<~]|<[^<>]+>)*(?:\\\\~|\\\\ |[^\\\\ <~]|<[^<>]+>)+ *~~',
+        'length' -> 2,
+        'tags' -> ['<st>', '</st>']
+    },
+    {
+        'regex' -> '(?<!\\\\):[Ii][Tt][Ee][Mm]:',
+        'length' -> 0,
+        'tag' -> '<item />'
+    }
+];
+
+global_markdown_markup = {
+    'i' -> 'italic',
+    'b' -> 'bold',
+    'st' -> 'strikethrough',
+    'underline' -> 'underlined',
+    'obf' -> 'obfuscated'
+};
+
+global_markup_tags = [
+    'italic',
+    'bold',
+    'strikethrough',
+    'underlined',
+    'obfuscated'
+];
+
+global_markup_colors = [
+    'black',
+    'dark_blue',
+    'dark_green',
+    'dark_aqua',
+    'dark_red',
+    'dark_purple',
+    'gold',
+    'gray',
+    'dark_gray',
+    'blue',
+    'green',
+    'aqua',
+    'red',
+    'light_purple',
+    'yellow',
+    'white',
+    'reset'
+];
+for (global_markup_colors, global_markup_tags += _);
+
+global_nbt_boolean_patch_map = {
+    'minecraft:attribute_modifiers' -> {
+        'show_in_tooltip'
+    },
+    'minecraft:potion_contents' -> {
+        'custom_effects' -> {
+            'ambient',
+            'show_particles',
+            'show_icon'
+        }
+    },
+    'minecraft:container' -> {
+        'item' -> {
+            'components'
+        }
+    },
+    'minecraft:bundle_contents' -> {
+        'components'
+    }
+};
+
+format_text(string) -> (
+    string = split('(?<!\\\\)(?<![^\\\\]<[^>]+)(?<!^<[^>]+)&(?=[0-9a-fk-or])', string);
+    new_string = '';
+    format_settings = {
+        'color' -> false,
+        'obfuscated' -> false,
+        'bold' -> false,
+        'strikethrough' -> false,
+        'underlined' -> false,
+        'italic' -> false
+    };
+
+    for (string,
+        if (_i && (color = global_bukkit_color_codes:slice(_, 0, 1)),
+            for (format_settings,
+                if (format_settings:_,
+                    new_string += '</' + _ + '>';
+                    format_settings:_ = false;
+                );
+            );
+            format_settings:'color' = color;
+            new_string += '<' + color + '>';
+        );
+
+        if (_i && (format_setting = global_bukkit_format_codes:slice(_, 0, 1)) && !(format_settings:format_setting),
+            format_settings:format_setting = true;
+            new_string += '<' + format_setting + '>';
+        );
+
+        if (length(_) > 1 || _ == '&' || !_i,
+            if (_i, _ = slice(_, 1));
+            new_string += replace(_, '\\\\&', '&');
+        );
+    );
+    
+    return(format_markdown(new_string));
+);
+
+format_bukkit(string) -> (
+    string = split('(?<!\\\\)&(?=[0-9a-fk-or])', string);
+    json = [''];
+    format_settings = {
+        'color' -> false,
+        'obfuscated' -> false,
+        'bold' -> false,
+        'strikethrough' -> false,
+        'underlined' -> false,
+        'italic' -> false
+    };
+
+    for (string,
+        if (_i && (color = global_bukkit_color_codes:slice(_, 0, 1)),
+            for (format_settings, format_settings:_ = false);
+            format_settings:'color' = color;
+        );
+
+        if (_i && (format_setting = global_bukkit_format_codes:slice(_, 0, 1)),
+            format_settings:format_setting = true;
+        );
+
+        if (length(_) > 1 || _ == '&' || !_i,
+            if (_i, _ = slice(_, 1));
+            content = {
+                'text' -> replace(_, '\\\\&', '&')
+            };
+            for (format_settings,
+                if (format_settings:_,
+                    content:_ = true;
+                );
+            );
+            json += content;
+        );
+    );
+
+    return(json);
+);
+
+format_markdown(string) -> (
+    tree = { 'branches' -> [] };
+    address = [];
+
+    head = {};
+
+    for (global_markdown_codes,
+        while (string ~ (global_markdown_codes:_i:'regex'), length(string),
+            if (global_markdown_codes:_i:'length' == 0,
+                string = replace_first(
+                    string,
+                    global_markdown_codes:_i:'regex',
+                    global_markdown_codes:_i:'tag'
+                );
+                continue();
+            );
+
+            string = replace_first(
+                string,
+                global_markdown_codes:_i:'regex',
+                global_markdown_codes:_i:'tags':0
+                + slice(
+                    string ~ (global_markdown_codes:_i:'regex'),
+                    global_markdown_codes:_i:'length',
+                    -1 - global_markdown_codes:_i:'length'
+                )
+                + global_markdown_codes:_i:'tags':1;
+            );
+        );
+    );
+
+    string = replace(string, '(?<!(<split>)|\\\\)<(?!\\/?split>)(?=[^<>]+>)', '<split><');
+    string = replace(string, '(?<=[^\\\\]<[^<>]+)(?<!<\\/?split)>(?!<split>)', '><split>');
+    string = split('((?<!\\\\)<split>)+', string);
+    
+    for (string,
+        branch = tree;
+        for (address,
+            branch = branch:'branches':_;
+        );
+
+        tag = replace(_, '[<\\/> ]');
+        is_tag = _ && replace(_, '(?<!\\\\)<\\/?[\\w@:#/.\\-~?&$+!*`(),= ]+\\/?>') == '';
+
+        if (is_tag && (markup_tag = global_markdown_markup:tag), tag = markup_tag);
+
+        if (is_tag && global_markup_tags ~ tag != null,
+            if (split(_):1 != '/',
+                address += length(branch:'branches');
+                branch:'branches' += {'tag' -> tag, 'branches' -> []},
+
+                address = return_address(tree, address, tag);
+            );
+            continue();
+        );
+
+        if (is_tag && replace(_, '<(c(olor)?:#?([0-9A-Fa-f]{3}){1,2}|\\/c(olor)?)>') == '',
+            if (split(_):1 != '/',
+                color = split(split(':#?', tag):1);
+                full_color = '#';
+                for (range(length(color)),
+                    full_color += color:_ * (6 / length(color));
+                );
+
+                address += length(branch:'branches');
+                branch:'branches' += {'tag' -> 'color', 'value' -> full_color, 'branches' -> []},
+
+                address = return_address(tree, address, 'color');
+            );
+            continue();
+        );
+
+        if (is_tag && replace(_, '<(click:\\w+=[^<>]+|\\/click)>') == '',
+            if (split(_):1 != '/',
+                action = split('[:=]', tag):1;
+                value = split('(<click:\\w+=)|>', _):1;
+                address += length(branch:'branches');
+                branch:'branches' += {'tag' -> 'clickEvent', 'value' -> {'action' -> action, 'value' -> value}, 'branches' -> []},
+
+                address = return_address(tree, address, 'click');
+            );
+            continue();
+        );
+
+        if (is_tag && replace(_, '<head:\\w+=(true|false) ?\\/?>') == '',
+            parts = split('[:=]', tag);
+            head:(parts:1) = parts:2 == 'true';
+            continue();
+        );
+
+        content = false;
+        if (is_tag && replace(_, '<s(el(ector)?)?:@?[\\w\\d-]+ ?\\/?>') == '',
+            content = {
+                'selector' -> split('[: /]', tag):1
+            };
+        );
+
+        if (is_tag && replace(_, '<item ?\\/?>') == '' && player() && player() ~ 'holds',
+            item = player() ~ 'holds';
+            item_nbt = parse_nbt(item:2);
+
+            name = item_nbt:'components':'minecraft:custom_name';
+            if (!name, name = item_nbt:'components':'minecraft:item_name');
+            if (!name,
+                name = item_display_name(item),
+
+                name = compress_json(name);
+            );
+
+            if (type(name) == 'string', name = {'text' -> item_display_name(item)}); // idk why this is required, breaks without it with.. weird strings
+
+            content = {
+                'text' -> '[',
+                'extra' -> [
+                    name,
+                    ']'
+                ],
+                'hoverEvent' -> {
+                    'action' -> 'show_item',
+                    'contents' -> fix_nbt(item_nbt);
+                }
+            }
+        );
+
+        if (!is_tag && length(_),
+            content = {
+                'text' -> replace(replace(replace(replace(replace(_, '\\\\\\*', '*'), '\\\\_', '_'), '\\\\~', '~'), '\\\\<', '<'), '\\\\:', ':')
+            };
+        );
+
+        if (content, branch:'branches' += {'content' -> content});
+    );
+
+    json = compress_json(branch_to_json(tree));
+    if (type(json) != 'list', json = [json]);
+
+    if (head,
+        if (head:'text' == null, head:'text' = '');
+        put(json, 0, head, 'insert'),
+
+        if (!json,
+            json = '',
+
+            if (length(json) > 1,
+                if (type(json:0) != 'string', put(json, 0, '', 'insert')),
+
+                json = json:0;
+                if (length(json) == 1 && json:'text',
+                    json = json:'text';
+                );
+            );
+        );
+    );
+
+    return(json);
+);
+
+merge_json(base, extra) -> (
+    json = copy(base);
+    delete(json:'extra');
+
+    if (type(extra) == 'string',
+        json:'text' += extra,
+
+        for (extra,
+            if (_ == 'text',
+                json:_ += extra:_,
+
+                json:_ = extra:_;
+            );
+            
+        );
+    );
+
+    if (!json:'text' && type(extra) == 'map' && extra:'text' == null,
+        delete(json:'text');
+    );
+
+    return(json);
+);
+
+compress_json(json) -> (
+    for (json:'extra',
+        json:'extra':_i = compress_json(_);
+    );
+
+    if (length(json:'extra') == 1,
+        json = merge_json(json, json:'extra':0)
+    );
+    
+    if (length(json:'extra'),
+        removed = 0;
+        for (json:'extra',
+            if (type(_) == 'string' || (length(_) == 1 && _:'text'),
+                if (type(_) == 'string',
+                    json:'text' += _,
+
+                    json:'text' += _:'text';
+                );
+                removed += 1,
+
+                break();
+            );
+        );
+        json:'extra' = slice(json:'extra', removed);
+    );
+
+    if (!json:'extra', delete(json:'extra'));
+
+    if (length(json) == 1 && json:'text' != null, json = json:'text');
+
+    if (length(json) == 2 && json:'text' != null && json:'extra' != null,
+        new = [];
+        if (json:'text', new += json:'text');
+        for (json:'extra',
+            new += _;
+        );
+        json = new;
+    );
+
+    return(json);
+);
+
+branch_to_json(branch) -> (
+    json = { 'text' -> '' };
+    if (branch:'content',
+        json = branch:'content'
+    );
+
+    if (!json:'extra', json:'extra' = []);
+
+    for (branch:'branches',
+        json:'extra' += branch_to_json(_);
+    );
+    if (!json:'extra', delete(json:'extra'));
+
+    if (tag = branch:'tag',
+        if (global_markup_colors ~ tag != null,
+            if (tag != 'reset', json:'color' = tag);
+            return(json);
+        );
+
+        value = branch:'value' && branch:'value' || true;
+        json:tag = value;
+    );
+
+    return(json);
+);
+
+return_address(tree, address, tag) -> (
+    found = [];
+    temp = [];
+    branch = tree;
+
+    for (address,
+        branch = branch:'branches':_;
+        if (branch:'tag' == tag,
+            found = copy(temp);
+        );
+        temp += _;
+    );
+
+    return(found);
+);
+
+cast_to_json(jsonlike) -> (
+    if (type(jsonlike) == 'string', jsonlike = decode_json(jsonlike));
+    if (type(jsonlike) == 'string', jsonlike = [{'text' -> jsonlike}]);
+    if (type(jsonlike) == 'map', jsonlike = [jsonlike]);
+
+    return(jsonlike);
+);
+
+json_to_raw(json) -> (
+    string = '';
+    json = cast_to_json(json);
+
+    for (json,
+        if (type(_) == 'string', string += _; continue());
+        if (type(_) == 'map',
+            if (_:'text', string += _:'text');
+            if (_:'extra', string += json_to_raw(_:'extra'));
+            continue();
+        );
+    );
+
+    return(string);
+);
+
+json_to_markup(json) -> (
+    string = '';
+    json = cast_to_json(json);
+
+    for (json,
+        if (type(_) == 'string', string += _; continue());
+        tags = ['', ''];
+        for (pairs(_), if (_:0 != 'text' && _:0 != 'color' && _:1 != false,
+            tags:0 += '<' + _:0 + '>';
+            tags:1 = '</' + _:0 + '>' + tags:1,
+
+            if (_:0 == 'color', if (_:1 ~ '#',
+                    tags:0 += '<c:' + _:1 + '>';
+                    tags:1 = '</c>' + tags:1,
+
+                    tags:0 += '<' + _:1 + '>';
+                    tags:1 = '</' + _:1 + '>' + tags:1;
+            ));
+        ));
+        string += tags:0 + _:'text' + tags:1;
+    );
+
+    return(string);
+);
+
+json_to_markdown(json) -> (
+    string = '';
+    json = cast_to_json(json);
+
+    for (json,
+        if (type(_) == 'string', string += _; continue());
+        if (type(_) == 'map',
+            markdown_code = '';
+            if (_:'underlined', markdown_code += '__');
+            if (_:'strikethrough', markdown_code += '~~');
+            if (_:'italic', markdown_code += '*');
+            if (_:'bold', markdown_code += '**');
+
+            string += markdown_code + _:'text' + reverse_string(markdown_code) + '​'; //zero width space for separation. dumb fix but whatever
+            if (_:'extra', string += json_to_markdown(_:'extra'));
+            continue();
+        );
+    );
+
+    return(string);
+);
+
+reverse_string(string) -> (
+    string = split(string);
+    reversed = '';
+
+    for (string,
+        reversed += string:(length(string) - _i - 1);
+    );
+
+    return(reversed);
+);
+
+fix_nbt(item_nbt) -> (
+    if (!has(item_nbt, 'components'), return(item_nbt));
+
+    item_nbt:'components' = fix_nbt_recursive(item_nbt:'components', global_nbt_boolean_patch_map);
+    return(item_nbt);
+);
+
+fix_nbt_recursive(item_nbt, boolean_patch_map) -> (
+    for (pairs(boolean_patch_map),
+        if (!has(item_nbt, _:0), continue());
+        component = item_nbt:(_:0);
+
+        if (_:0 == 'components',
+            item_nbt:(_:0) = fix_nbt_recursive(component, global_nbt_boolean_patch_map);
+            continue();
+        );
+
+        next_patch = _:1;
+
+        if (type(next_patch) == 'map',
+            if (type(component) == 'list',
+                for (component,
+                    component:_i = fix_nbt_recursive(_, next_patch);
+                );
+                continue();
+            );
+            
+            item_nbt:(_:0) = fix_nbt_recursive(component, next_patch);
+            continue();
+        );
+
+        item_nbt:(_:0) = component == 1;
+    );
+
+    return(item_nbt);
+);

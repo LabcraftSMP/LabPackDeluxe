@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "natures_spirit:cobbled_travertine",
+    "natures_spirit:cobbled_travertine_stairs",
+    "natures_spirit:cobbled_travertine_slab",
+    "natures_spirit:cobbled_travertine_wall",
+    "natures_spirit:mossy_cobbled_travertine",
+    "natures_spirit:mossy_cobbled_travertine_stairs",
+    "natures_spirit:mossy_cobbled_travertine_slab",
+    "natures_spirit:mossy_cobbled_travertine_wall",
+    "natures_spirit:mossy_travertine_bricks",
+    "natures_spirit:mossy_travertine_brick_stairs",
+    "natures_spirit:mossy_travertine_brick_slab",
+    "natures_spirit:mossy_travertine_brick_wall"
+  ]
+}

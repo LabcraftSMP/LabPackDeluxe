@@ -1,0 +1,17 @@
+{
+  "id": "lab_tweaks:tipped_bamboo_spikes",
+  "contents": [
+    "item:supplementaries:bamboo_spikes_tipped",
+    "item:supplementaries:bamboo_spikes_tipped{\"minecraft:potion_contents\":{potion:\"minecraft:long_poison\"}}",
+    "item:supplementaries:bamboo_spikes_tipped{\"minecraft:potion_contents\":{potion:\"minecraft:strong_poison\"}}",
+    "item:supplementaries:bamboo_spikes_tipped{\"minecraft:potion_contents\":{potion:\"minecraft:slowness\"}}",
+    "item:supplementaries:bamboo_spikes_tipped{\"minecraft:potion_contents\":{potion:\"minecraft:long_slowness\"}}",
+    "item:supplementaries:bamboo_spikes_tipped{\"minecraft:potion_contents\":{potion:\"minecraft:strong_slowness\"}}",
+    "item:supplementaries:bamboo_spikes_tipped{\"minecraft:potion_contents\":{potion:\"minecraft:harming\"}}",
+    "item:supplementaries:bamboo_spikes_tipped{\"minecraft:potion_contents\":{potion:\"minecraft:strong_harming\"}}",
+    "item:supplementaries:bamboo_spikes_tipped{\"minecraft:potion_contents\":{potion:\"minecraft:weakness\"}}",
+    "item:supplementaries:bamboo_spikes_tipped{\"minecraft:potion_contents\":{potion:\"minecraft:long_weakness\"}}",
+    "item:supplementaries:bamboo_spikes_tipped{\"minecraft:potion_contents\":{potion:\"minecraft:wind_charged\"}}",
+    "item:supplementaries:bamboo_spikes_tipped{\"minecraft:potion_contents\":{potion:\"minecraft:weaving\"}}"
+  ]
+}

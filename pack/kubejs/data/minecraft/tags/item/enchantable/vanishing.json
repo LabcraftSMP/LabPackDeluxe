@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#lab_tweaks:horseshoes",
+    "supplementaries:wrench",
+    "#soulbound:enchantable"
+  ]
+}

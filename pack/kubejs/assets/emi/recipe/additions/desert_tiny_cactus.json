@@ -1,0 +1,14 @@
+{
+  "type": "emi:world_interaction",
+  "left": "item:creeperoverhaul:desert_creeper_spawn_egg",
+  "right": {
+    "type": "item",
+    "id": "minecraft:shears",
+    "remainder": {
+      "type": "item",
+      "id": "minecraft:shears",
+      "nbt": "{\"minecraft:damage\":1}"
+    }
+  },
+  "output": "item:creeperoverhaul:tiny_cactus"
+}

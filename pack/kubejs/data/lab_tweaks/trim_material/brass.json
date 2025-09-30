@@ -1,0 +1,9 @@
+{
+  "asset_name": "brass",
+  "description": {
+    "color": "#FBCC68",
+    "translate": "trim_material.lab_tweaks.brass"
+  },
+  "ingredient": "create:brass_ingot",
+  "item_model_index": 0.69
+}

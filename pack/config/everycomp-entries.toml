@@ -1,0 +1,164 @@
+#Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
+[types]
+
+		[types.cake.natures_spirit]
+			cheese_block = true
+
+		[types.wood_type.vanillabackport]
+			pale_oak = true
+
+		[types.wood_type.arts_and_crafts]
+			cork = true
+
+		[types.wood_type.natures_spirit]
+			redwood = true
+			sugi = true
+			wisteria = true
+			fir = true
+			willow = true
+			aspen = true
+			maple = true
+			cypress = true
+			olive = true
+			joshua = true
+			ghaf = true
+			palo_verde = true
+			coconut = true
+			cedar = true
+			larch = true
+			mahogany = true
+			saxaul = true
+
+		[types.wood_type.mynethersdelight]
+			powdery = true
+
+		[types.wood_type.enderscape]
+			veiled = true
+			celestial = true
+			murublight = true
+
+		[types.leaves_type.vanillabackport]
+			pale_oak = true
+
+		[types.leaves_type.arts_and_crafts]
+			cork = true
+
+		[types.leaves_type.natures_spirit]
+			frosty_redwood = true
+			redwood = true
+			sugi = true
+			wisteria = true
+			white_wisteria = true
+			part_white_wisteria = true
+			blue_wisteria = true
+			part_blue_wisteria = true
+			pink_wisteria = true
+			part_pink_wisteria = true
+			purple_wisteria = true
+			part_purple_wisteria = true
+			frosty_fir = true
+			fir = true
+			willow = true
+			aspen = true
+			yellow_aspen = true
+			red_maple = true
+			orange_maple = true
+			yellow_maple = true
+			cypress = true
+			olive = true
+			joshua = true
+			ghaf = true
+			palo_verde = true
+			coconut = true
+			cedar = true
+			larch = true
+			mahogany = true
+			saxaul = true
+
+		[types.stone_type.natures_spirit]
+			white_kaolin = false
+			light_gray_kaolin = false
+			gray_kaolin = false
+			black_kaolin = false
+			brown_kaolin = false
+			red_kaolin = false
+			orange_kaolin = false
+			yellow_kaolin = false
+			lime_kaolin = false
+			green_kaolin = false
+			cyan_kaolin = false
+			light_blue_kaolin = false
+			blue_kaolin = false
+			purple_kaolin = false
+			magenta_kaolin = false
+			pink_kaolin = false
+			pink_sandstone = false
+			white_chalk = false
+			light_gray_chalk = false
+			gray_chalk = false
+			black_chalk = false
+			brown_chalk = false
+			red_chalk = false
+			orange_chalk = false
+			yellow_chalk = false
+			lime_chalk = false
+			green_chalk = false
+			cyan_chalk = false
+			light_blue_chalk = false
+			blue_chalk = false
+			purple_chalk = false
+			magenta_chalk = false
+			pink_chalk = false
+			bleached_chalk = false
+			travertine = true
+			chert = true
+			kaolin = false
+
+		[types.stone_type.arts_and_crafts]
+			white_chalk = false
+			gypsum = true
+			soapstone = false
+
+		[types.stone_type.create]
+			limestone = true
+			asurine = true
+			crimsite = true
+			ochrum = true
+			veridium = true
+			scoria = true
+			scorchia = true
+
+		[types.stone_type.enderscape]
+			mirestone = true
+			veradite = true
+			kurodite = true
+
+#Disables specific entries
+[entries]
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true
+
+		[entries.wood_type.create]
+			window_pane = true
+			window = true
+
+		[entries.stone_type.create]
+			small_brick_wall = true
+			cut_wall = true
+			small_bricks = true
+			cut_brick_slab = true
+			polished_cut_slab = true
+			small_brick_stairs = true
+			cut_bricks = true
+			cut = true
+			polished_cut = true
+			small_brick_slab = true
+			layered = true
+			polished_cut_stairs = true
+			cut_brick_wall = true
+			pillar = true
+			cut_stairs = true
+			cut_brick_stairs = true
+			polished_cut_wall = true
+			cut_slab = true

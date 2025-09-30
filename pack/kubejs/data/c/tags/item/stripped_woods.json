@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "arts_and_crafts:stripped_cork_wood",
+    "vanillabackport:stripped_pale_oak_wood",
+    "enderscape:stripped_veiled_wood",
+    "enderscape:stripped_celestial_hyphae",
+    "enderscape:stripped_murublight_hyphae"
+  ]
+}

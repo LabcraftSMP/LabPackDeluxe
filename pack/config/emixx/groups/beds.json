@@ -1,0 +1,7 @@
+{
+  "id": "lab_tweaks:beds",
+  "contents": [
+    "#item:minecraft:beds",
+    "item:bedspreads:decorated_bed"
+  ]
+}

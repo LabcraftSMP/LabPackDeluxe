@@ -1,0 +1,10 @@
+{
+  "filters": [
+    { "category": "emixx:villager_trades" },
+    
+    { "id": "brewinandchewin:pouring/kombucha" },
+    { "id": "/toomanyrecipeviewers:\/create\/fill_minecraft_bucket_with_create_dragons_plus_(?!black_dye)/" },
+    { "id": "/emi:\/emi\/bucket_filling\/create_dragons_plus\/(?!black_dye)/"},
+    { "id": "/crittersandcompanions:\/gameplay\/digging\//" }
+  ]
+}

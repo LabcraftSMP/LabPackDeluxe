@@ -1,0 +1,13 @@
+name = "Every Compat (Stone Zone)"
+filename = "stonezone-1.21-2.11.3-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uYwn8IP5/versions/GaJLCEcb/stonezone-1.21-2.11.3-neoforge.jar"
+hash-format = "sha512"
+hash = "c5b00bf5586e42b0bc33a2bd1c23c9c6b119cd4ef39774d138a559248288f725af52f508c02b9379a801016881f7308a75ac7a60a3d0d4857cbbce45371e07f6"
+
+[update]
+[update.modrinth]
+mod-id = "uYwn8IP5"
+version = "GaJLCEcb"

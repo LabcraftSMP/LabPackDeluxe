@@ -1,0 +1,8 @@
+{
+  "values": {
+    "create:item/cardboard_helmet": "minecraft:trims/items/helmet_trim",
+    "create:item/cardboard_chestplate": "minecraft:trims/items/chestplate_trim",
+    "create:item/cardboard_leggings": "minecraft:trims/items/leggings_trim",
+    "create:item/cardboard_boots": "minecraft:trims/items/boots_trim"
+  }
+}

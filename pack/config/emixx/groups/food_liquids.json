@@ -1,0 +1,9 @@
+{
+  "id": "lab_tweaks:food_liquids",
+  "contents": [
+    "fluid:brewinandchewin:flaxen_cheese",
+    "fluid:brewinandchewin:scarlet_cheese",
+    "fluid:create:honey",
+    "fluid:create:chocolate"
+  ]
+}

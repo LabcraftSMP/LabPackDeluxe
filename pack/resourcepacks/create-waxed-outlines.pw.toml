@@ -1,0 +1,13 @@
+name = "Create Waxed Outlines"
+filename = "CreateWaxedOutlines-1.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Dc9e0xjQ/versions/Uy56aqWT/CreateWaxedOutlines-1.0.zip"
+hash-format = "sha512"
+hash = "7e22fbfef73a6c3da3ba809980bb16caaa416c1086e234d1de7d33738eca84eec9453dc418d2bf8fa7fb7138bed39804e1a8f42341a500bb9fdb7ac91e9c4d4d"
+
+[update]
+[update.modrinth]
+mod-id = "Dc9e0xjQ"
+version = "Uy56aqWT"

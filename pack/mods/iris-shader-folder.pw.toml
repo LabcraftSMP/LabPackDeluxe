@@ -1,0 +1,13 @@
+name = "Iris/Oculus Shader Folder"
+filename = "iris_shader_folder-1.1.1-neoforge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/yv6sGJzN/versions/ItI95OOW/iris_shader_folder-1.1.1-neoforge.jar"
+hash-format = "sha512"
+hash = "6ef762778e0397e824e3df9c3586e705c180add77eb09f889cc55ff0d260926ec6bb6ff338dfe7f18a8714f36e1a74f501c93c4b8b5fe1cca5a76c3bd8d76cb9"
+
+[update]
+[update.modrinth]
+mod-id = "yv6sGJzN"
+version = "ItI95OOW"

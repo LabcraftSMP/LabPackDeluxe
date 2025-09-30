@@ -1,0 +1,21 @@
+{
+  "id": "lab_tweaks:drink_liquids",
+  "contents": [
+    "fluid:brewinandchewin:rice_wine",
+    "fluid:brewinandchewin:beer",
+    "fluid:brewinandchewin:vodka",
+    "fluid:brewinandchewin:mead",
+    "fluid:brewinandchewin:pale_jane",
+    "fluid:brewinandchewin:egg_grog",
+    "fluid:brewinandchewin:glittering_grenadine",
+    "fluid:brewinandchewin:saccharine_rum",
+    "fluid:brewinandchewin:salty_folly",
+    "fluid:brewinandchewin:bloody_mary",
+    "fluid:brewinandchewin:red_rum",
+    "fluid:brewinandchewin:strongroot_ale",
+    "fluid:brewinandchewin:steel_toe_stout",
+    "fluid:brewinandchewin:dread_nog",
+    "fluid:brewinandchewin:withering_dross",
+    "fluid:create:tea"
+  ]
+}

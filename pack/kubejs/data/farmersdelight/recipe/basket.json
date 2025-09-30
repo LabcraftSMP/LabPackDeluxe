@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "farmersdelight:canvas"
+    },
+    "B": {
+      "tag": "lab_tweaks:stalks"
+    }
+  },
+  "pattern": [
+    "B B",
+    "# #",
+    "B#B"
+  ],
+  "result": {
+    "count": 1,
+    "id": "farmersdelight:basket"
+  }
+}

@@ -1,0 +1,8 @@
+name = "sillylittleguys"
+filename = "SillyLittleGuys-neoforge-0.1.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/chililisoup/SillyLittleGuys/releases/download/0.1.0/SillyLittleGuys-neoforge-0.1.0.jar"
+hash-format = "sha256"
+hash = "de638c19ce02f2c68a2617682d5a0c22056fa8cd9e1dd46c83a9a5642d83b3f4"

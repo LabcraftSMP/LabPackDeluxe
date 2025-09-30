@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "kaolin_bricks",
+  "ingredients": [
+    {
+      "tag": "natures_spirit:kaolin_bricks"
+    },
+    {
+      "tag": "natures_spirit:kaolin_bricks"
+    },
+    {
+      "tag": "natures_spirit:kaolin_bricks"
+    },
+    {
+      "tag": "natures_spirit:kaolin_bricks"
+    },
+    {
+      "tag": "natures_spirit:kaolin_bricks"
+    },
+    {
+      "tag": "natures_spirit:kaolin_bricks"
+    },
+    {
+      "tag": "natures_spirit:kaolin_bricks"
+    },
+    {
+      "tag": "natures_spirit:kaolin_bricks"
+    },
+    {
+      "item": "arts_and_crafts:bleachdew"
+    }
+  ],
+  "result": {
+    "id": "natures_spirit:kaolin_bricks",
+    "count": 8
+  }
+}

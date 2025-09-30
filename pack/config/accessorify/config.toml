@@ -1,0 +1,33 @@
+# Don't change this! Version used to track needed updates.
+version = 1
+slotMode = "UNIQUE_SLOT"
+hideDebugInfoInSurvival = true
+
+[accessorySettings]
+clockAccessory = true
+compassAccessory = true
+recoveryCompassAccessory = true
+calendarAccessory = false
+elytraAccessory = false
+spyglassAccessory = true
+lanternAccessory = false
+totemOfUndyingAccessory = true
+enderChestAccessory = false
+shulkerBoxAccessory = true
+arrowAccessory = false
+
+[infoOverlaySettings]
+showYCoordinate = true
+obfuscateCompassIfNotOverworld = false
+obfuscateClockIfNotOverworld = true
+useObfuscationEffect = true
+
+[infoOverlaySettings.overlayFields]
+coordinates = true
+direction = true
+biome = true
+dayAndTime = true
+weather = true
+moonPhase = true
+season = false
+lastDeathLocation = true

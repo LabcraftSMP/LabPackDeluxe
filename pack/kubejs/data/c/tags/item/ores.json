@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "enderscape:mirestone_shadoline_ore",
+    "enderscape:shadoline_ore",
+    "enderscape:mirestone_nebulite_ore",
+    "enderscape:nebulite_ore"
+  ]
+}
