@@ -1,6 +1,6 @@
 name = "emixx"
 filename = "emixx-neoforge-1.2.4-SNAPSHOT.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://github.com/chililisoup/emi-plus-plus/releases/download/1.2.4-snapshot/emixx-neoforge-1.2.4-SNAPSHOT.jar"
