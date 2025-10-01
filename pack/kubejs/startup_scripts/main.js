@@ -1,5 +1,7 @@
-function mapColorItems(colors, template) {
-	return colors.map(color => template.replace('XX', color).replace(':_', ':').replace(/_$/, '')).reverse()
+function mapColorItems(colors, templates) {
+	let mapped = []
+    colors.forEach(color => mapped = mapped.concat(templates.map(template => template.replace('XX', color).replace(':_', ':').replace(/_$/, ''))))
+    return mapped.reverse()
 }
 
 const creeperOverhaulCreepers = [
@@ -37,6 +39,7 @@ StartupEvents.modifyCreativeTab('minecraft:tools_and_utilities', event => {
 		'create_dragons_plus:black_dye_bucket',
 		'create:chocolate_bucket',
 		'create:honey_bucket',
+		'mynethersdelight:hot_cream',
 		'mynethersdelight:hot_wings_bucket'
 	])
 
@@ -52,13 +55,27 @@ StartupEvents.modifyCreativeTab('minecraft:tools_and_utilities', event => {
 
 StartupEvents.modifyCreativeTab('minecraft:building_blocks', event => {
 	event.addAfter('vanillabackport:pale_oak_trapdoor', 'vanillabackport:pale_oak_pressure_plate')
+	event.addBefore('vanillabackport:resin_bricks', 'vanillabackport:resin_block')
 
 	event.remove('minecraft:mud_bricks')
 	event.remove('minecraft:mud_brick_stairs')
 	event.remove('minecraft:mud_brick_slab')
 	event.remove('minecraft:mud_brick_wall')
 
-	event.addBefore('vanillabackport:resin_bricks', 'vanillabackport:resin_block')
+	event.addBefore('minecraft:stone', [
+		'natures_spirit:paper_block',
+		'natures_spirit:paper_panel',
+		'natures_spirit:paper_door',
+		'natures_spirit:paper_trapdoor',
+		'natures_spirit:framed_paper_block',
+		'natures_spirit:framed_paper_panel',
+		'natures_spirit:framed_paper_door',
+		'natures_spirit:framed_paper_trapdoor',
+		'natures_spirit:blooming_paper_block',
+		'natures_spirit:blooming_paper_panel',
+		'natures_spirit:blooming_paper_door',
+		'natures_spirit:blooming_paper_trapdoor'
+	])
 
 	function addCopperVariants(variants) {
 		event.addBefore(
@@ -230,12 +247,62 @@ StartupEvents.modifyCreativeTab('minecraft:building_blocks', event => {
 
 StartupEvents.modifyCreativeTab('minecraft:functional_blocks', event => {
 	event.addBefore('minecraft:bell', 'supplementaries:jar_boat')
-
-	event.addAfter('minecraft:pink_bed', mapColorItems(global.baseColors, 'create:XXseat'))
-
+	event.addAfter('minecraft:pink_bed', mapColorItems(global.baseColors, ['create:XXseat']))
 	event.addAfter('minecraft:armor_stand', 'dummmmmmy:target_dummy')
-
+	event.addAfter('minecraft:barrel', 'farmersdelight:basket')
 	event.addBefore('minecraft:skeleton_skull', 'lootr:trophy')
+	event.addAfter('minecraft:scaffolding', 'farmersdelight:safety_net')
+	event.addAfter('minecraft:soul_torch', 'mynethersdelight:powdery_torch')
+	event.addAfter('minecraft:warped_hanging_sign', [
+		'mynethersdelight:powdery_hanging_sign',
+		'mynethersdelight:powdery_sign'
+	])
+
+	const enderscapeWoods = [
+		'murublight',
+		'celestial',
+		'veiled'
+	]
+
+	enderscapeWoods.forEach(woodType => {
+		const sign = 'enderscape:' + woodType + '_sign'
+		event.remove(sign)
+		event.addBefore('enderscape:' + woodType + '_hanging_sign', sign)
+	})
+
+	event.addAfter('enderscape:veiled_hanging_sign', mapColorItems(global.fullColors, [
+		'farmersdelight:XXcanvas_sign',
+		'farmersdelight:XXhanging_canvas_sign'
+	]))
+
+	event.addAfter('enderscape:veiled_hanging_sign', [
+		'natures_spirit:paper_hanging_sign',
+		'natures_spirit:paper_sign'
+	])
+
+	event.addBefore('minecraft:oak_sign', [
+		'mynethersdelight:blackstone_bricks_cabinet',
+		'mynethersdelight:red_nether_bricks_cabinet',
+		'mynethersdelight:nether_bricks_cabinet'
+	])
+
+	global.woodTypes.forEach(woodType => {
+        const splitId = woodType.id.split(':')
+        const vanilla = splitId.length == 1
+        if (vanilla) splitId.unshift('minecraft')
+        const namespace = splitId[0]
+        const id = splitId[1]
+
+		let cabinet;
+		if (vanilla) cabinet = 'farmersdelight:XX_cabinet'
+		else if (namespace == 'mynethersdelight') cabinet = 'mynethersdelight:XX_cabinet'
+		else cabinet = 'everycomp:fd/NN/XX_cabinet'
+
+		event.addBefore(
+			namespace + ':' + id + '_sign',
+			cabinet.replace('NN', namespace).replace('XX', id)
+		)
+	})
 })
 
 StartupEvents.modifyCreativeTab('minecraft:natural_blocks', event => {
@@ -247,12 +314,35 @@ StartupEvents.modifyCreativeTab('minecraft:natural_blocks', event => {
 	event.addAfter('minecraft:fern', 'spring_to_life:short_dry_grass')
 	event.addAfter('minecraft:large_fern', 'spring_to_life:tall_dry_grass')
 
+	event.addAfter('minecraft:crimson_fungus', 'mynethersdelight:crimson_fungus_colony')
+	event.addAfter('minecraft:warped_fungus', 'mynethersdelight:warped_fungus_colony')
+	event.addAfter('minecraft:bamboo', [
+		'mynethersdelight:bullet_pepper',
+		'mynethersdelight:powder_cannon'
+	])
+	event.addAfter('minecraft:soul_soil', [
+		'mynethersdelight:resurgent_soil_farmland',
+		'mynethersdelight:resurgent_soil',
+		'mynethersdelight:letios_compost'
+	])
+	event.addAfter('minecraft:farmland', [
+		'farmersdelight:rich_soil_farmland',
+		'farmersdelight:rich_soil',
+		'farmersdelight:organic_compost'
+	])
+	event.addAfter('minecraft:hay_block', 'farmersdelight:straw_bale')
+
 	event.addAfter('minecraft:cactus', 'creeperoverhaul:tiny_cactus')
 
 	event.addAfter('minecraft:slime_block', 'crittersandcompanions:sea_bunny_slime_block')
 	event.addAfter('vanillabackport:dried_ghast', 'crittersandcompanions:silk_cocoon')
 
 	event.addBefore('natures_spirit:white_wisteria_leaves', 'natures_spirit:wisteria_leaves')
+	event.addBefore('minecraft:amethyst_clust', [
+		'natures_spirit:small_calcite_bud',
+		'natures_spirit:large_calcite_bud',
+		'natures_spirit:calcite_cluster'
+	])
 
 	event.addBefore('minecraft:ochre_froglight', 'vanillabackport:resin_block')
 
@@ -271,6 +361,7 @@ StartupEvents.modifyCreativeTab('minecraft:redstone_blocks', event => {
 		'supplementaries:cannon_boat_oak'
 	])
 	event.addAfter('minecraft:slime_block', 'crittersandcompanions:sea_bunny_slime_block')
+	event.addAfter('minecraft:barrel', 'farmersdelight:basket')
 
 	event.addAfter('minecraft:powered_rail', 'create:controller_rail')
 	event.addAfter('minecraft:redstone_lamp', 'create:rose_quartz_lamp')
@@ -295,8 +386,12 @@ StartupEvents.modifyCreativeTab('minecraft:colored_blocks', event => {
 		'minecraft:mud_brick_wall'
 	])
 
-	event.addBefore('natures_spirit:white_paper_lantern', mapColorItems(global.fullColors, 'suppsquared:gold_candle_holderXX').reverse())
-	event.addAfter('minecraft:pink_bed', mapColorItems(global.baseColors, 'create:XXseat'))
+	event.addBefore('natures_spirit:white_paper_lantern', mapColorItems(global.fullColors, ['suppsquared:gold_candle_holderXX']).reverse())
+	event.addAfter('minecraft:pink_bed', mapColorItems(global.baseColors, ['create:XXseat']))
+	event.addAfter('arts_and_crafts:pink_plaster', mapColorItems(global.fullColors, [
+		'farmersdelight:XXcanvas_sign',
+		'farmersdelight:XXhanging_canvas_sign'
+	]))
 
 
 	function fixOrder(colors, items) {
@@ -385,7 +480,10 @@ StartupEvents.modifyCreativeTab('minecraft:spawn_eggs', event => {
 
 StartupEvents.modifyCreativeTab('minecraft:food_and_drinks', event => {
 	event.addAfter('minecraft:tropical_fish', 'crittersandcompanions:koi_fish')
-	event.addAfter('minecraft:milk_bucket', 'mynethersdelight:hot_wings_bucket')
+	event.addAfter('minecraft:milk_bucket', [
+		'mynethersdelight:hot_cream',
+		'mynethersdelight:hot_wings_bucket'
+	])
 })
 
 StartupEvents.modifyCreativeTab('minecraft:ingredients', event => {
@@ -401,6 +499,14 @@ StartupEvents.modifyCreativeTab('minecraft:ingredients', event => {
 		'crittersandcompanions:clam',
 		'crittersandcompanions:dragonfly_wing'
 	])
+
+	event.addAfter('minecraft:stick', 'farmersdelight:tree_bark')
+	event.addAfter('minecraft:wheat', [
+		'farmersdelight:canvas',
+		'farmersdelight:straw'
+	])
+
+	event.addAfter('minecraft:blaze_powder', 'mynethersdelight:pepper_powder')
 
 	event.addAfter('minecraft:raw_copper', 'create:raw_zinc')
 	event.addAfter('minecraft:iron_nugget', [
@@ -423,6 +529,12 @@ StartupEvents.modifyCreativeTab('minecraft:ingredients', event => {
 		'create:iron_sheet',
 		'create:andesite_alloy'
 	])
+	event.addAfter('natures_spirit:chalk_powder', [
+		'create:sturdy_sheet',
+		'create:powdered_obsidian',
+		'create:cardboard',
+		'create:pulp'
+	])
 
 	event.addAfter('minecraft:netherite_upgrade_smithing_template', 'create_dragons_plus:blaze_upgrade_smithing_template')
 
@@ -430,6 +542,7 @@ StartupEvents.modifyCreativeTab('minecraft:ingredients', event => {
 		event.remove(after)
 		event.addAfter(before, after)
 	}
+	reorder('minecraft:brick', 'vanillabackport:resin_brick')
 	reorder('minecraft:guster_banner_pattern', 'enderscape:crescent_banner_pattern')
 
 	function reorderTrim(before, after) {
@@ -450,6 +563,16 @@ StartupEvents.modifyCreativeTab('minecraft:ingredients', event => {
 	reorderTrim('ward', 'nihility')
 })
 
+StartupEvents.modifyCreativeTab('minecraft:op_blocks', event => {
+	event.addAfter('enderscape:healing', [
+		'create:handheld_worldshaper',
+		'create:creative_motor',
+		'create:creative_fluid_tank',
+		'create:creative_crate',
+		'create:creative_blaze_cake'
+	].reverse())
+})
+
 StartupEvents.modifyCreativeTab('mynethersdelight:main', event => {
 	event.addAfter('mynethersdelight:nether_bricks_stove', 'mynethersdelight:nether_bricks_soul_stove')
 })
@@ -460,46 +583,52 @@ StartupEvents.modifyCreativeTab('create:base', event => {
 		'create_enchantment_industry:printer'
 	])
 	event.addAfter('create:chocolate_bucket', 'create_dragons_plus:black_dye_bucket')
+
+	event.remove('create:handheld_worldshaper')
+	event.remove('create:creative_motor')
+	event.remove('create:creative_fluid_tank')
+	event.remove('create:creative_crate')
+	event.remove('create:creative_blaze_cake')
 })
 
 StartupEvents.modifyCreativeTab('create_dragons_plus:base', event => {
-	event.remove(/./)
+	event.remove('*')
 })
 
 StartupEvents.modifyCreativeTab('vanillabackport:chase_the_skies', event => {
-	event.remove(/./)
+	event.remove('*')
 })
 
 StartupEvents.modifyCreativeTab('vanillabackport:the_garden_awakens', event => {
-	event.remove(/./)
+	event.remove('*')
 })
 
 StartupEvents.modifyCreativeTab('spring_to_life:spring_to_life_tab', event => {
-	event.remove(/./)
+	event.remove('*')
 })
 
 // why tf is their tab name chickensaurs_items
 StartupEvents.modifyCreativeTab('horseshoes:chickensaurs_items', event => {
-	event.remove(/./)
+	event.remove('*')
 })
 
 StartupEvents.modifyCreativeTab('creeperoverhaul:item_group', event => {
-	event.remove(/./)
+	event.remove('*')
 })
 
 StartupEvents.modifyCreativeTab('lootr:lootr', event => {
-	event.remove(/./)
+	event.remove('*')
 })
 
 StartupEvents.modifyCreativeTab('crittersandcompanions:main', event => {
-	event.remove(/./)
+	event.remove('*')
 })
 
 StartupEvents.modifyCreativeTab('arts_and_crafts:configurable_tab', event => {
-	event.remove(/./)
+	event.remove('*')
 })
 
 // everycomp does this late so I suppose this isn't possible
 // StartupEvents.modifyCreativeTab('everycomp:everycomp', event => {
-// 	event.remove(/./)
+// 	event.remove('*')
 // })

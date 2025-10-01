@@ -1,7 +1,7 @@
 [creativeModeTabs]
 	enableCreativeModeTabs = true
 	syncSelectedCreativeModeTab = false
-	disabledCreativeModeTabs = ["minecraft:op_blocks", "everycomp:everycomp", "stonezone:stonezone"]
+	disabledCreativeModeTabs = ["minecraft:op_blocks"]
 
 [stackGroups]
 	enableStackGroups = true

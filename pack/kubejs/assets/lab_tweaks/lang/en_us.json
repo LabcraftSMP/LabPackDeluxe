@@ -144,6 +144,5 @@
 
   "item.supplementaries.wrench": "Flippin' Cactus",
   "tag.entity_type.supplementaries.rotatable": "Flippin' Cactus Rotatable",
-  "advancements.husbandry.wrench.description": "Use a Flippin' Cactus to rotate a block",
-  "block.supplementaries.item_shelf": "Oak Item Shelf"
+  "advancements.husbandry.wrench.description": "Use a Flippin' Cactus to rotate a block"
 }

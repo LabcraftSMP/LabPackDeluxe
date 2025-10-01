@@ -145,7 +145,6 @@ ServerEvents.tags('item', event => {
         'NN:XX_BB',
         'NN:XX_chest_BB',
         'supplementaries:SScannon_boat_XX',
-        'suppsquared:SSitem_shelf_XX',
         'farmersdelight:XX_cabinet',
         'everycomp:fd/NN/XX_cabinet',
         'create:XX_window',
@@ -483,5 +482,5 @@ ServerEvents.tags('enchantment', event => {
 })
 
 ServerEvents.recipes(event => {
-    event.remove({ id: 'minecraft:lead' })
+    event.remove({ output: '#suppsquared:item_shelves' })
 })

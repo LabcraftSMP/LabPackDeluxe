@@ -1,13 +1,13 @@
 name = "Supplementaries Squared"
-filename = "suppsquared-1.21-1.2.12-neoforge.jar"
+filename = "suppsquared-1.21-1.2.13-neoforge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/dCCkNFwE/versions/4kxASiJs/suppsquared-1.21-1.2.12-neoforge.jar"
+url = "https://cdn.modrinth.com/data/dCCkNFwE/versions/5TlyrOPH/suppsquared-1.21-1.2.13-neoforge.jar"
 hash-format = "sha512"
-hash = "fcc06be5dd8f5ac1a9620bd1eec4130741ced461c9e16d3dca71d00653b28d386c7ec92e00794bb8ffa47c19675054e8d078833ded91aa6f58facaf3e47628a9"
+hash = "a9423e2273100094fb5425e81db2753a1e4cee0af3c04e845bd4e2198bad2c51b1e2b341197e0727dfc65e90e5791c510ad8786c7e2524b373f01f73af14c1d2"
 
 [update]
 [update.modrinth]
 mod-id = "dCCkNFwE"
-version = "4kxASiJs"
+version = "5TlyrOPH"

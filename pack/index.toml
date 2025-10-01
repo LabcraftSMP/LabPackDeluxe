@@ -124,9 +124,6 @@ file = "config/emixx/groups/buntings.json"
 file = "config/emixx/groups/calcite.json"
 
 [[files]]
-file = "config/emixx/groups/canvas_hanging_signs.json"
-
-[[files]]
 file = "config/emixx/groups/canvas_signs.json"
 
 [[files]]
@@ -515,6 +512,9 @@ file = "config/everycomp-entries.toml"
 
 [[files]]
 file = "config/fog/config.json"
+
+[[files]]
+file = "config/harvest_with_ease-common.toml"
 
 [[files]]
 file = "config/horseman-client.toml"
@@ -1390,9 +1390,6 @@ file = "kubejs/data/lab_tweaks/tags/item/block_sets/wooden/joshua.json"
 file = "kubejs/data/lab_tweaks/tags/item/block_sets/wooden/mahogany.json"
 
 [[files]]
-file = "kubejs/data/lab_tweaks/tags/item/block_sets/wooden/oak.json"
-
-[[files]]
 file = "kubejs/data/lab_tweaks/tags/item/block_sets/wooden/powdery.json"
 
 [[files]]
@@ -1448,6 +1445,9 @@ file = "kubejs/data/minecraft/recipe/bundle.json"
 
 [[files]]
 file = "kubejs/data/minecraft/recipe/cake.json"
+
+[[files]]
+file = "kubejs/data/minecraft/recipe/lead.json"
 
 [[files]]
 file = "kubejs/data/minecraft/recipe/purpur_slab.json"
@@ -1547,6 +1547,9 @@ file = "kubejs/data/supplementaries/loot_table/inject/end_city_stasis.json"
 
 [[files]]
 file = "kubejs/data/supplementaries/recipe/lunch_basket.json"
+
+[[files]]
+file = "kubejs/data/supplementaries/recipe/sack.json"
 
 [[files]]
 file = "kubejs/data/supplementaries/recipe/wrench.json"

@@ -7,6 +7,7 @@
     "minecraft:nether_brick_slab",
     "minecraft:nether_brick_wall",
     "minecraft:nether_brick_fence",
-    "minecraft:chiseled_nether_bricks"
+    "minecraft:chiseled_nether_bricks",
+    "mynethersdelight:nether_bricks_cabinet"
   ]
 }

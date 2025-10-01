@@ -20,6 +20,7 @@
     "supplementaries:blackstone_tile",
     "supplementaries:blackstone_tile_stairs",
     "supplementaries:blackstone_tile_slab",
-    "supplementaries:blackstone_tile_wall"
+    "supplementaries:blackstone_tile_wall",
+    "mynethersdelight:blackstone_bricks_cabinet"
   ]
 }

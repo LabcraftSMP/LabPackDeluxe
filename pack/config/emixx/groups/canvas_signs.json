@@ -1,6 +1,7 @@
 {
   "id": "lab_tweaks:canvas_signs",
   "contents": [
-    "#item:farmersdelight:canvas_signs"
+    "#item:farmersdelight:canvas_signs",
+    "#item:farmersdelight:hanging_canvas_signs"
   ]
 }
