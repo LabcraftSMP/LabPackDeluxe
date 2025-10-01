@@ -751,9 +751,6 @@ file = "kubejs/assets/emi/recipe/additions/pearl.json"
 file = "kubejs/assets/emi/recipe/additions/small_calcite_bud_brushing.json"
 
 [[files]]
-file = "kubejs/assets/emi/recipe/defaults/condiments.json"
-
-[[files]]
 file = "kubejs/assets/emi/recipe/filters/filters.json"
 
 [[files]]
@@ -1064,9 +1061,6 @@ file = "kubejs/data/c/tags/item/concrete.json"
 
 [[files]]
 file = "kubejs/data/c/tags/item/concrete_powder.json"
-
-[[files]]
-file = "kubejs/data/c/tags/item/eggs.json"
 
 [[files]]
 file = "kubejs/data/c/tags/item/fence_gates/wooden.json"
