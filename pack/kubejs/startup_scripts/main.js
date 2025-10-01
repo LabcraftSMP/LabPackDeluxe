@@ -338,10 +338,10 @@ StartupEvents.modifyCreativeTab('minecraft:natural_blocks', event => {
 	event.addAfter('vanillabackport:dried_ghast', 'crittersandcompanions:silk_cocoon')
 
 	event.addBefore('natures_spirit:white_wisteria_leaves', 'natures_spirit:wisteria_leaves')
-	event.addBefore('minecraft:amethyst_clust', [
-		'natures_spirit:small_calcite_bud',
+	event.addAfter('minecraft:amethyst_cluster', [
+		'natures_spirit:calcite_cluster',
 		'natures_spirit:large_calcite_bud',
-		'natures_spirit:calcite_cluster'
+		'natures_spirit:small_calcite_bud'
 	])
 
 	event.addBefore('minecraft:ochre_froglight', 'vanillabackport:resin_block')
