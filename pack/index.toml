@@ -1670,10 +1670,6 @@ file = "mods/cobweb.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/colorwheel-patcher.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/colorwheel.pw.toml"
 metafile = true
 
@@ -2177,7 +2173,7 @@ file = "resourcepacks/rstorch-backport-mod-supporter.pw.toml"
 metafile = true
 
 [[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.5.1 + EuphoriaPatches_1.6.8 + Clrwl_1.0.0.txt"
+file = "shaderpacks/ComplementaryReimagined_r5.6 + EuphoriaPatches_1.7.0.txt"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
