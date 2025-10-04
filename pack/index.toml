@@ -1561,13 +1561,13 @@ file = "kubejs/server_scripts/jsconfig.json"
 file = "kubejs/server_scripts/main.js"
 
 [[files]]
+file = "kubejs/startup_scripts/creative_tabs.js"
+
+[[files]]
 file = "kubejs/startup_scripts/globals.js"
 
 [[files]]
 file = "kubejs/startup_scripts/jsconfig.json"
-
-[[files]]
-file = "kubejs/startup_scripts/main.js"
 
 [[files]]
 file = "mods/accessories-compat-layer.pw.toml"

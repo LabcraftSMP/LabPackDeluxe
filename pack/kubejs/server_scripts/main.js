@@ -482,5 +482,5 @@ ServerEvents.tags('enchantment', event => {
 })
 
 ServerEvents.recipes(event => {
-    event.remove({ output: '#suppsquared:item_shelves' })
+    event.remove({ output: '#suppsquared:item_shelves', not: { mod: 'brewinandchewin' } })
 })

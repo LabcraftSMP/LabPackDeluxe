@@ -1,8 +1,8 @@
 name = "kubejs"
-filename = "kubejs-neoforge-2101.7.2-build.262.jar"
+filename = "kubejs-neoforge-2101.7.2-build.263.jar"
 side = "both"
 
 [download]
-url = "https://maven.latvian.dev/releases/dev/latvian/mods/kubejs-neoforge/2101.7.2-build.262/kubejs-neoforge-2101.7.2-build.262.jar"
+url = "https://maven.latvian.dev/releases/dev/latvian/mods/kubejs-neoforge/2101.7.2-build.263/kubejs-neoforge-2101.7.2-build.263.jar"
 hash-format = "sha256"
-hash = "4466c7259397ec68f7deb9c18014d25e64966a3560df9f471c3e6a22988b81d6"
+hash = "68a22da0262cfc0a5de3b1f77741d07f0eb52fc6ab39e4ff77a22a2cc18257f0"

@@ -1,3 +1,5 @@
+//priority: 1
+
 global.woodTypes = [
     { id: 'oak' },
     { id: 'spruce' },

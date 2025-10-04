@@ -1,3 +1,5 @@
+//requires: client
+
 function mapColorItems(colors, templates) {
 	let mapped = []
     colors.forEach(color => mapped = mapped.concat(templates.map(template => template.replace('XX', color).replace(':_', ':').replace(/_$/, ''))))
