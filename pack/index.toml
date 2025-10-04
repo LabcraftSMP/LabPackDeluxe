@@ -1582,6 +1582,10 @@ file = "mods/accessorify.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/alltheleaks.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/amendments.pw.toml"
 metafile = true
 
