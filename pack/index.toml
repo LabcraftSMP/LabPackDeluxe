@@ -1634,6 +1634,10 @@ file = "mods/blueprint.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/bobby.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/bookshelf-lib.pw.toml"
 metafile = true
 

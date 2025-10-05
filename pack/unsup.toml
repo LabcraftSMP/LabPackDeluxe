@@ -1,0 +1,15 @@
+[flavor_groups.bobby]
+name = "Bobby"
+side = "client"
+description = "Stores server chunks client-side to allow for higher render distances."
+[[flavor_groups.bobby.choices]]
+id = "bobby_on"
+name = "Add"
+description = "Add Bobby"
+[[flavor_groups.bobby.choices]]
+id = "bobby_off"
+name = "Skip"
+description = "Do not add Bobby"
+
+[metafile.bobby]
+flavors = "bobby_on"
