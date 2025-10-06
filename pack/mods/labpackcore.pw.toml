@@ -1,8 +1,8 @@
 name = "labpackcore"
-filename = "labpackcore-0.1.2.jar"
+filename = "labpackcore-0.2.0.jar"
 side = "both"
 
 [download]
-url = "https://github.com/chililisoup/LabPackCore/releases/download/0.1.2/labpackcore-0.1.2.jar"
+url = "https://github.com/chililisoup/LabPackCore/releases/download/0.2.0/labpackcore-0.2.0.jar"
 hash-format = "sha256"
-hash = "51cc288f92eb664a5794e73953791f186806128434afafa2da66052856c272be"
+hash = "e04430912d94537ac77e57abd23c7d509806e4a5c71430a0aa4440dfa5a3c17f"
