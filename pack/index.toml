@@ -1826,6 +1826,10 @@ file = "mods/forgified-fabric-api.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/freecam.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/fzzy-config.pw.toml"
 metafile = true
 
@@ -2071,6 +2075,10 @@ metafile = true
 
 [[files]]
 file = "mods/sillylittleguys.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/simple-voice-chat.pw.toml"
 metafile = true
 
 [[files]]

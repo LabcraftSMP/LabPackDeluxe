@@ -34,3 +34,8 @@ key_key.jade.toggle_liquid:key.keyboard.unknown
 key_key.jade.show_recipes:key.keyboard.unknown
 key_key.jade.show_uses:key.keyboard.unknown
 key_key.jade.narrate:key.keyboard.unknown
+
+key_key.hide_icons:key.keyboard.j
+key_key.voice_chat:key.keyboard.y
+
+key_key.freecam.toggle:key.keyboard.u

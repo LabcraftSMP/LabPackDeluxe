@@ -6,8 +6,11 @@ KeyBindJSEvents.modify(event => {
     event.modifyKey('key.lighty.toggle', 296)
     event.remove('key.lighty.enable')
 
-    // event.modifyKey('key.freecam.toggle', 85)
-    // event.remove('key.freecam.configGui')
+    event.modifyKey('key.freecam.toggle', 85)
+    event.remove('key.freecam.configGui')
+
+    event.modifyKey('key.hide_icons', 74)
+    event.modifyKey('key.voice_chat', 89)
 
     event.modifyKey('iris.keybind.reload', -1)
     event.modifyKey('iris.keybind.shaderPackSelection', -1)
