@@ -625,6 +625,12 @@ file = "kubejs/assets/amendments/models/block/signs/natures_spirit/sign_paper_wa
 file = "kubejs/assets/amendments/textures/block/signs/natures_spirit/sign_paper.png"
 
 [[files]]
+file = "kubejs/assets/arts_and_crafts/blockstates/cork_fence.json"
+
+[[files]]
+file = "kubejs/assets/arts_and_crafts/blockstates/cork_fence_gate.json"
+
+[[files]]
 file = "kubejs/assets/create/models/block/diodes/latch_off.json"
 
 [[files]]
@@ -754,6 +760,24 @@ file = "kubejs/assets/emi/recipe/additions/small_calcite_bud_brushing.json"
 file = "kubejs/assets/emi/recipe/filters/filters.json"
 
 [[files]]
+file = "kubejs/assets/enderscape/blockstates/celestial_fence.json"
+
+[[files]]
+file = "kubejs/assets/enderscape/blockstates/celestial_fence_gate.json"
+
+[[files]]
+file = "kubejs/assets/enderscape/blockstates/murublight_fence.json"
+
+[[files]]
+file = "kubejs/assets/enderscape/blockstates/murublight_fence_gate.json"
+
+[[files]]
+file = "kubejs/assets/enderscape/blockstates/veiled_fence.json"
+
+[[files]]
+file = "kubejs/assets/enderscape/blockstates/veiled_fence_gate.json"
+
+[[files]]
 file = "kubejs/assets/enderscape/models/item/painting/grape_static.json"
 
 [[files]]
@@ -782,6 +806,45 @@ file = "kubejs/assets/minecraft/atlases/armor_trims.json"
 
 [[files]]
 file = "kubejs/assets/minecraft/atlases/blocks.json"
+
+[[files]]
+file = "kubejs/assets/minecraft/models/block/fence_inventory.json"
+
+[[files]]
+file = "kubejs/assets/minecraft/models/block/fence_post.json"
+
+[[files]]
+file = "kubejs/assets/minecraft/models/block/fence_side.json"
+
+[[files]]
+file = "kubejs/assets/minecraft/models/block/nether_brick_fence_inventory.json"
+
+[[files]]
+file = "kubejs/assets/minecraft/models/block/nether_brick_fence_post.json"
+
+[[files]]
+file = "kubejs/assets/minecraft/models/block/nether_brick_fence_side.json"
+
+[[files]]
+file = "kubejs/assets/minecraft/models/block/old_fence_inventory.json"
+
+[[files]]
+file = "kubejs/assets/minecraft/models/block/old_fence_post.json"
+
+[[files]]
+file = "kubejs/assets/minecraft/models/block/old_fence_side.json"
+
+[[files]]
+file = "kubejs/assets/minecraft/models/block/template_fence_gate.json"
+
+[[files]]
+file = "kubejs/assets/minecraft/models/block/template_fence_gate_open.json"
+
+[[files]]
+file = "kubejs/assets/minecraft/models/block/template_fence_gate_wall.json"
+
+[[files]]
+file = "kubejs/assets/minecraft/models/block/template_fence_gate_wall_open.json"
 
 [[files]]
 file = "kubejs/assets/minecraft/models/item/elytra.json"
@@ -835,10 +898,112 @@ file = "kubejs/assets/minecraft/textures/item/elytra.png"
 file = "kubejs/assets/minecraft/textures/item/elytra_overlay.png"
 
 [[files]]
+file = "kubejs/assets/natures_spirit/blockstates/aspen_fence.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/aspen_fence_gate.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/cedar_fence.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/cedar_fence_gate.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/coconut_fence.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/coconut_fence_gate.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/cypress_fence.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/cypress_fence_gate.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/fir_fence.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/fir_fence_gate.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/ghaf_fence.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/ghaf_fence_gate.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/joshua_fence.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/joshua_fence_gate.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/larch_fence.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/larch_fence_gate.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/mahogany_fence.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/mahogany_fence_gate.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/maple_fence.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/maple_fence_gate.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/olive_fence.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/olive_fence_gate.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/palo_verde_fence.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/palo_verde_fence_gate.json"
+
+[[files]]
 file = "kubejs/assets/natures_spirit/blockstates/paper_sign.json"
 
 [[files]]
 file = "kubejs/assets/natures_spirit/blockstates/paper_wall_sign.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/redwood_fence.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/redwood_fence_gate.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/saxaul_fence.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/saxaul_fence_gate.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/sugi_fence.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/sugi_fence_gate.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/willow_fence.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/willow_fence_gate.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/wisteria_fence.json"
+
+[[files]]
+file = "kubejs/assets/natures_spirit/blockstates/wisteria_fence_gate.json"
 
 [[files]]
 file = "kubejs/assets/natures_spirit/models/item/painting/aspen.json"
