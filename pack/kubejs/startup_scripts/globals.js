@@ -55,6 +55,7 @@ global.blacklistedItems = [
     'natures_spirit:cheese_bucket',
 
     'farmersdelight:rope',
+    'farmersdelight:wheat_dough',
 
     'create_dragons_plus:dragon_breath_bucket',
     'create_dragons_plus:white_dye_bucket',

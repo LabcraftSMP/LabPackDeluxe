@@ -646,6 +646,9 @@ file = "kubejs/assets/create/models/block/redstone_link/transmitter.json"
 file = "kubejs/assets/create/models/block/redstone_link/transmitter_vertical.json"
 
 [[files]]
+file = "kubejs/assets/create/models/item/dough.json"
+
+[[files]]
 file = "kubejs/assets/create/textures/trims/models/armor/card_beast.png"
 
 [[files]]
@@ -1228,7 +1231,13 @@ file = "kubejs/data/c/tags/item/concrete.json"
 file = "kubejs/data/c/tags/item/concrete_powder.json"
 
 [[files]]
+file = "kubejs/data/c/tags/item/doughs.json"
+
+[[files]]
 file = "kubejs/data/c/tags/item/fence_gates/wooden.json"
+
+[[files]]
+file = "kubejs/data/c/tags/item/foods/dough.json"
 
 [[files]]
 file = "kubejs/data/c/tags/item/glazed_terracotta.json"
@@ -1409,6 +1418,12 @@ file = "kubejs/data/farmersdelight/recipe/safety_net.json"
 
 [[files]]
 file = "kubejs/data/farmersdelight/recipe/scaffolding_from_canvas.json"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipe/wheat_dough_from_egg.json"
+
+[[files]]
+file = "kubejs/data/farmersdelight/recipe/wheat_dough_from_water.json"
 
 [[files]]
 file = "kubejs/data/farmersdelight/tags/block/cabinets.json"
