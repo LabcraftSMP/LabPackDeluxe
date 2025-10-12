@@ -1,13 +1,13 @@
 name = "Fog"
-filename = "Fog-neoforge-1.9.3-1.21.1.jar"
-side = "client"
+filename = "Fog-neoforge-1.11.0-1.21.1.jar"
+side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/WuGVWUF2/versions/QnWLqrtV/Fog-neoforge-1.9.3-1.21.1.jar"
+url = "https://cdn.modrinth.com/data/WuGVWUF2/versions/c4ytB02Y/Fog-neoforge-1.11.0-1.21.1.jar"
 hash-format = "sha512"
-hash = "ac5ebc4782aef6de29be2498b470f51eb625310fc6b03bc86790fc498b496e9eeb3ec9d5ddfbc9c7cdf8678db81b2772ec717c739551eba7793e1ea042356e9c"
+hash = "930acf4610db47432ae305ab12ed317c00961e96bbb6c8c41c2f528f5b16a798405297b42f313dc641fbf725cb9d2aae8ab98e83a72739669284843e1df2959d"
 
 [update]
 [update.modrinth]
 mod-id = "WuGVWUF2"
-version = "QnWLqrtV"
+version = "c4ytB02Y"

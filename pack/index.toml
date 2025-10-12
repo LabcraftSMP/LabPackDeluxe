@@ -2369,7 +2369,7 @@ file = "resourcepacks/rstorch-backport-mod-supporter.pw.toml"
 metafile = true
 
 [[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.6 + EuphoriaPatches_1.7.0.txt"
+file = "shaderpacks/ComplementaryReimagined_r5.6.1 + EuphoriaPatches_1.7.2.txt"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
