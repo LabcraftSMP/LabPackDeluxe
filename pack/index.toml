@@ -736,6 +736,15 @@ file = "kubejs/assets/create/trimmed/maps/trimmed/texture/trim_overlays/cardboar
 file = "kubejs/assets/create/trimmed/model_generators/cardboard_armor.json"
 
 [[files]]
+file = "kubejs/assets/crittersandcompanions/models/entity/connectiblechains/silk_lead.json"
+
+[[files]]
+file = "kubejs/assets/crittersandcompanions/textures/entity/silk_lead_knot.png"
+
+[[files]]
+file = "kubejs/assets/crittersandcompanions/textures/entity/silk_lead_rope.png"
+
+[[files]]
 file = "kubejs/assets/emi/index/stacks/hidden.json"
 
 [[files]]
@@ -1270,6 +1279,9 @@ file = "kubejs/data/c/tags/worldgen/biome/is_swamp.json"
 file = "kubejs/data/connectiblechains/tags/block/chain_connectible.json"
 
 [[files]]
+file = "kubejs/data/connectiblechains/tags/item/catenary_items.json"
+
+[[files]]
 file = "kubejs/data/create/recipe/crafting/curiosities/cake.json"
 
 [[files]]
@@ -1378,6 +1390,9 @@ file = "kubejs/data/crittersandcompanions/loot_table/gameplay/loot_modifiers/inj
 file = "kubejs/data/crittersandcompanions/loot_table/gameplay/loot_modifiers/replace_drowned_flesh.json"
 
 [[files]]
+file = "kubejs/data/crittersandcompanions/recipe/grappling_hook.json"
+
+[[files]]
 file = "kubejs/data/crittersandcompanions/recipe/silk_lead.json"
 
 [[files]]
@@ -1439,6 +1454,12 @@ file = "kubejs/data/lab_tweaks/arts_and_crafts/paintbrush_palette/iron_candle_ho
 
 [[files]]
 file = "kubejs/data/lab_tweaks/arts_and_crafts/paintbrush_palette/paper_lanterns.json"
+
+[[files]]
+file = "kubejs/data/lab_tweaks/arts_and_crafts/paintbrush_palette/seats.json"
+
+[[files]]
+file = "kubejs/data/lab_tweaks/arts_and_crafts/paintbrush_palette/windmill_sails.json"
 
 [[files]]
 file = "kubejs/data/lab_tweaks/curios/slots/belt.json"
@@ -1685,6 +1706,9 @@ file = "kubejs/data/minecraft/worldgen/world_preset/normal.json"
 
 [[files]]
 file = "kubejs/data/mynethersdelight/recipe/crafting/basket_alt.json"
+
+[[files]]
+file = "kubejs/data/mynethersdelight/recipe/crafting/powdery_plank.json"
 
 [[files]]
 file = "kubejs/data/mynethersdelight/recipe/crafting/scaffolding_alt.json"

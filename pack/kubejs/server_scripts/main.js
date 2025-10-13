@@ -33,6 +33,7 @@ ServerEvents.tags('block', event => {
     event.add('lab_tweaks:paper_lanterns', buildColorVariants('natures_spirit:XXpaper_lantern', global.fullColors))
     event.add('lab_tweaks:iron_candle_holders', buildColorVariants('supplementaries:candle_holderXX', global.fullColors))
     event.add('lab_tweaks:gold_candle_holders', buildColorVariants('suppsquared:gold_candle_holderXX', global.fullColors))
+    event.add('lab_tweaks:windmill_sails', buildColorVariants('create:XXsail', global.baseColors))
 
 
     const cabinets = [
