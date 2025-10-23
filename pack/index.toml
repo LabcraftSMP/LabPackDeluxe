@@ -1219,6 +1219,9 @@ file = "kubejs/data/arts_and_crafts/worldgen/configured_feature/chalk_patch.json
 file = "kubejs/data/brewinandchewin/recipe/pouring/honey_bottle.json"
 
 [[files]]
+file = "kubejs/data/brewinandchewin/tags/item/foods/pizza_topping.json"
+
+[[files]]
 file = "kubejs/data/c/tags/block/concrete.json"
 
 [[files]]
@@ -1246,10 +1249,19 @@ file = "kubejs/data/c/tags/item/doughs.json"
 file = "kubejs/data/c/tags/item/fence_gates/wooden.json"
 
 [[files]]
+file = "kubejs/data/c/tags/item/foods.json"
+
+[[files]]
 file = "kubejs/data/c/tags/item/foods/dough.json"
 
 [[files]]
+file = "kubejs/data/c/tags/item/foods/edible_when_placed.json"
+
+[[files]]
 file = "kubejs/data/c/tags/item/glazed_terracotta.json"
+
+[[files]]
+file = "kubejs/data/c/tags/item/mushrooms.json"
 
 [[files]]
 file = "kubejs/data/c/tags/item/music_discs.json"
@@ -1262,6 +1274,9 @@ file = "kubejs/data/c/tags/item/stripped_logs.json"
 
 [[files]]
 file = "kubejs/data/c/tags/item/stripped_woods.json"
+
+[[files]]
+file = "kubejs/data/c/tags/item/tools/knives.json"
 
 [[files]]
 file = "kubejs/data/c/tags/worldgen/biome/beach.json"
@@ -1444,6 +1459,9 @@ file = "kubejs/data/farmersdelight/recipe/wheat_dough_from_water.json"
 file = "kubejs/data/farmersdelight/tags/block/cabinets.json"
 
 [[files]]
+file = "kubejs/data/farmersdelight/tags/item/meals.json"
+
+[[files]]
 file = "kubejs/data/lab_tweaks/arts_and_crafts/paintbrush_palette/awnings.json"
 
 [[files]]
@@ -1466,6 +1484,9 @@ file = "kubejs/data/lab_tweaks/curios/slots/belt.json"
 
 [[files]]
 file = "kubejs/data/lab_tweaks/recipe/black_bisque.json"
+
+[[files]]
+file = "kubejs/data/lab_tweaks/recipe/blackstone_bricks_cabinet.json"
 
 [[files]]
 file = "kubejs/data/lab_tweaks/recipe/blue_bisque.json"
@@ -1495,6 +1516,12 @@ file = "kubejs/data/lab_tweaks/recipe/lime_bisque.json"
 file = "kubejs/data/lab_tweaks/recipe/magenta_bisque.json"
 
 [[files]]
+file = "kubejs/data/lab_tweaks/recipe/manakish_slice.json"
+
+[[files]]
+file = "kubejs/data/lab_tweaks/recipe/nether_bricks_cabinet.json"
+
+[[files]]
 file = "kubejs/data/lab_tweaks/recipe/orange_bisque.json"
 
 [[files]]
@@ -1505,6 +1532,9 @@ file = "kubejs/data/lab_tweaks/recipe/purple_bisque.json"
 
 [[files]]
 file = "kubejs/data/lab_tweaks/recipe/red_bisque.json"
+
+[[files]]
+file = "kubejs/data/lab_tweaks/recipe/red_nether_bricks_cabinet.json"
 
 [[files]]
 file = "kubejs/data/lab_tweaks/recipe/stick_from_stalk_item.json"
@@ -1717,6 +1747,36 @@ file = "kubejs/data/mynethersdelight/recipe/crafting/scaffolding_alt.json"
 file = "kubejs/data/mynethersdelight/recipe/crafting/stick_alt.json"
 
 [[files]]
+file = "kubejs/data/mynethersdelight/recipe/stonecutting/blackstone_bricks_cabinet.json"
+
+[[files]]
+file = "kubejs/data/mynethersdelight/recipe/stonecutting/nether_bricks_cabinet.json"
+
+[[files]]
+file = "kubejs/data/mynethersdelight/recipe/stonecutting/red_nether_bricks_cabinet.json"
+
+[[files]]
+file = "kubejs/data/natures_delight/recipe/cooking/alfredo_pasta.json"
+
+[[files]]
+file = "kubejs/data/natures_delight/recipe/cooking/coconut_bread.json"
+
+[[files]]
+file = "kubejs/data/natures_delight/recipe/cooking/coconut_pancakes.json"
+
+[[files]]
+file = "kubejs/data/natures_delight/recipe/cooking/fafaru.json"
+
+[[files]]
+file = "kubejs/data/natures_delight/recipe/cooking/manakish.json"
+
+[[files]]
+file = "kubejs/data/natures_delight/recipe/cooking/sweet_and_savory_saute.json"
+
+[[files]]
+file = "kubejs/data/natures_delight/recipe/cooking/turnip_tagine.json"
+
+[[files]]
 file = "kubejs/data/natures_spirit/recipe/cheese_arrow.json"
 
 [[files]]
@@ -1748,6 +1808,9 @@ file = "kubejs/data/supplementaries/recipe/lunch_basket.json"
 
 [[files]]
 file = "kubejs/data/supplementaries/recipe/sack.json"
+
+[[files]]
+file = "kubejs/data/supplementaries/recipe/way_sign_mod_template.json"
 
 [[files]]
 file = "kubejs/data/supplementaries/recipe/wrench.json"
@@ -2174,6 +2237,10 @@ file = "mods/my-nethers-delight.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/natures-delight.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/natures-spirit.pw.toml"
 metafile = true
 
@@ -2271,6 +2338,10 @@ metafile = true
 
 [[files]]
 file = "mods/searchables.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/sherd-duplication.pw.toml"
 metafile = true
 
 [[files]]
@@ -2393,7 +2464,7 @@ file = "resourcepacks/rstorch-backport-mod-supporter.pw.toml"
 metafile = true
 
 [[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.6.1 + EuphoriaPatches_1.7.2.txt"
+file = "shaderpacks/ComplementaryReimagined_r5.6.1 + EuphoriaPatches_1.7.3.txt"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"

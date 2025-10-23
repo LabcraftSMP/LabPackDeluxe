@@ -38,6 +38,7 @@ ServerEvents.tags('block', event => {
 
     const cabinets = [
         'farmersdelight:XX_cabinet',
+        'natures_delight:XX_cabinet',
         'everycomp:fd/NN/XX_cabinet'
     ]
 
@@ -147,6 +148,7 @@ ServerEvents.tags('item', event => {
         'NN:XX_chest_BB',
         'supplementaries:SScannon_boat_XX',
         'farmersdelight:XX_cabinet',
+        'natures_delight:XX_cabinet',
         'everycomp:fd/NN/XX_cabinet',
         'create:XX_window',
         'everycomp:c/NN/XX_window',

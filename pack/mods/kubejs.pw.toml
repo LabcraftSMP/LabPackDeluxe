@@ -1,8 +1,13 @@
-name = "kubejs"
-filename = "kubejs-neoforge-2101.7.2-build.263.jar"
+name = "KubeJS"
+filename = "kubejs-neoforge-2101.7.2-build.292.jar"
 side = "both"
 
 [download]
-url = "https://maven.latvian.dev/releases/dev/latvian/mods/kubejs-neoforge/2101.7.2-build.263/kubejs-neoforge-2101.7.2-build.263.jar"
-hash-format = "sha256"
-hash = "68a22da0262cfc0a5de3b1f77741d07f0eb52fc6ab39e4ff77a22a2cc18257f0"
+url = "https://cdn.modrinth.com/data/umyGl7zF/versions/7tMX1Waa/kubejs-neoforge-2101.7.2-build.292.jar"
+hash-format = "sha512"
+hash = "71017df02e6492dcf88e0f262fb435eb6bdc90f6e56fd2670e16cc1792f5987e8db48575be3bf21f5593e83d141cbd53f733ebdbc5c30faab8efd9cb92931f3a"
+
+[update]
+[update.modrinth]
+mod-id = "umyGl7zF"
+version = "7tMX1Waa"

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:nether_bricks"
+    },
+    "S": {
+      "item": "minecraft:nether_brick_slab"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "S S",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "mynethersdelight:nether_bricks_cabinet"
+  }
+}

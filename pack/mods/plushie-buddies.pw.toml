@@ -1,13 +1,13 @@
 name = "Plushie Buddies"
-filename = "plushie_buddies-0.1.6-neofroge-1.21.1.jar"
+filename = "plushie_buddies-0.1.7-neofroge-1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/5hoSWfrw/versions/YNPNfBHf/plushie_buddies-0.1.6-neofroge-1.21.1.jar"
+url = "https://cdn.modrinth.com/data/5hoSWfrw/versions/lms85HFr/plushie_buddies-0.1.7-neofroge-1.21.1.jar"
 hash-format = "sha512"
-hash = "b843f6a3aed3bc582790cad7927fc46835835bbacfca748d2830dab12cfff6b12b451f5bdbccd6ed86b0a70102f263df18e330d94c8af99392f52619200d0d90"
+hash = "ad2e779db3c0ddd05a5873384a5392bef533834e62a5e53b6f71c36a3389f2d0827a83fc26be83811a9e07987b0eca392d6a9dca438752564c5654a3775424d6"
 
 [update]
 [update.modrinth]
 mod-id = "5hoSWfrw"
-version = "YNPNfBHf"
+version = "lms85HFr"

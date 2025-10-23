@@ -297,6 +297,7 @@ StartupEvents.modifyCreativeTab('minecraft:functional_blocks', event => {
 
 		let cabinet;
 		if (vanilla) cabinet = 'farmersdelight:XX_cabinet'
+		else if (namespace == 'natures_spirit') cabinet = 'natures_delight:XX_cabinet'
 		else if (namespace == 'mynethersdelight') cabinet = 'mynethersdelight:XX_cabinet'
 		else cabinet = 'everycomp:fd/NN/XX_cabinet'
 
