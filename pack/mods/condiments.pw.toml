@@ -1,13 +1,13 @@
 name = "Condiments"
-filename = "condiments-neoforge-1.4.3+1.21.1.jar"
+filename = "condiments-neoforge-1.4.4+1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/XAJ8n4Vd/versions/OEdPqPnT/condiments-neoforge-1.4.3%2B1.21.1.jar"
+url = "https://cdn.modrinth.com/data/XAJ8n4Vd/versions/q4E4uD41/condiments-neoforge-1.4.4%2B1.21.1.jar"
 hash-format = "sha512"
-hash = "aa80bed2649f1fb4182e57f905aea5a5ed938e740b542c9d33a3c8274669aaf0960e61a97edbc249abf31460870991092a0e11bfdaf28d697a611a9ad1c13014"
+hash = "30a8e8676cb034435a428346d4c57e9e8f28e017f4be03b334582e160302d29bd9e6e5a8fa437fea6000ab66fb7549066eeeb53dee38b194af73979053c9c156"
 
 [update]
 [update.modrinth]
 mod-id = "XAJ8n4Vd"
-version = "OEdPqPnT"
+version = "q4E4uD41"
