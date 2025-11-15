@@ -1,13 +1,13 @@
 name = "Cobweb"
-filename = "cobweb-neoforge-1.21-1.3.3.jar"
+filename = "cobweb-neoforge-1.21-1.4.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/dQcfqGbl/versions/O4TVCiim/cobweb-neoforge-1.21-1.3.3.jar"
+url = "https://cdn.modrinth.com/data/dQcfqGbl/versions/c10AZba0/cobweb-neoforge-1.21-1.4.0.jar"
 hash-format = "sha512"
-hash = "4ae56b7ab29c4baeb6312783196efc66753f059765cd2433c2176da6c7d3aa42883ba040f271268dadbccb38056716c12ae1104502f1f41d7ea7d01dedf0d2b1"
+hash = "0d258ce908e6c337bfc66452c90037e4dfe871f77da32297a108b7a9ef94d178007b1f66fa1dfda4d3e68e31755ae19636f15098da6ccfc25b2a46b4bf092248"
 
 [update]
 [update.modrinth]
 mod-id = "dQcfqGbl"
-version = "O4TVCiim"
+version = "c10AZba0"
